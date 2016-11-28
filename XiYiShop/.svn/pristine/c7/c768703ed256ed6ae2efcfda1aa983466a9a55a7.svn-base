@@ -1,0 +1,68 @@
+package com.fajuary.xiyishop_android.module.bean;/**
+ * 作者：huanghui on 2016/10/17 17:04
+ */
+
+/**
+ * created by huanghui at 2016/10/17
+ *
+ * 银行卡类
+ */
+
+public class BankCardBean {
+    private String bankcard;//银行卡号
+    //    private boolean isChecked = false;//选中状态
+    private String bank;// 银行
+
+    private String name;
+
+
+    public BankCardBean() {
+    }
+
+    public BankCardBean(String bankcard , String bank, String name) {
+//        this.isChecked = isChecked;
+        this.bank = bank;
+        this.bankcard = bankcard;
+        this.name = name;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBankcard() {
+        return bankcard;
+    }
+
+    public void setBankcard(String bankcard) {
+        this.bankcard = bankcard;
+    }
+
+    public String getBank() {
+        return bank;
+    }
+
+    public void setBank(String bank) {
+        this.bank = bank;
+    }
+//
+//    public boolean isChecked() {
+//        return isChecked;
+//    }
+//
+//    public void setChecked(boolean checked) {
+//        isChecked = checked;
+//    }
+
+    @Override
+    public String toString() {
+        return "BankCardBean{" +
+//                "isChecked=" + isChecked +
+                ", bank='" + bank + '\'' +
+                ", bankcard='" + bankcard + '\'' +
+                '}';
+    }
+}

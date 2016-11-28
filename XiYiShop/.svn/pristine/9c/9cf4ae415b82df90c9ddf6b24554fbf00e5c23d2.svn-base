@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_bank_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    tools:context="com.fajuary.xiyishop_android.module.activity.AddBankCardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/mydp12"
+                android:layout_height="@dimen/mydp22"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp11"
+                android:clickable="true"
+                android:src="@mipmap/left" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="添加银行卡"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_gaimi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:layout_marginTop="@dimen/mydp9"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="账号"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+
+        <EditText
+            android:gravity="right"
+            android:id="@+id/et_zhanghao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:background="@null"
+            android:hint="622848001089846465"
+            android:numeric="integer"
+            android:paddingLeft="@dimen/mydp10"
+            android:textCursorDrawable="@null" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5"
+        android:background="#A0A0A0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="开户行"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+
+        <EditText
+            android:gravity="right"
+            android:id="@+id/et_kaihuhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:background="@null"
+            android:hint="中国工商银行"
+            android:paddingLeft="@dimen/mydp10"
+            android:textCursorDrawable="@null" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5"
+        android:background="#A0A0A0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="持卡人姓名"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+
+        <EditText
+            android:gravity="right"
+            android:id="@+id/et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView"
+            android:layout_marginRight="@dimen/mydp11"
+            android:background="@null"
+            android:hint="张三"
+            android:paddingLeft="@dimen/mydp10"
+            android:textCursorDrawable="@null" />
+    </RelativeLayout>
+
+    <TextView
+        android:clickable="true"
+        android:id="@+id/tv_queding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp46"
+        android:layout_marginLeft="@dimen/mydp9"
+        android:layout_marginRight="@dimen/mydp11"
+        android:layout_marginTop="@dimen/mydp20"
+        android:background="@drawable/bg_tijiaoshenqing"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mydp17" />
+</LinearLayout>

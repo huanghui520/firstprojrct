@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchMatch.Vertical"
+    >
+    <include
+        layout="@layout/fragment_layout"
+        />
+    <View
+        style="@style/all_line"
+        android:layout_marginLeft="@dimen/mydp15"
+        android:layout_marginRight="@dimen/mydp15"
+        />
+    <RadioGroup
+        android:visibility="visible"
+        android:id="@+id/activity_myordertype_rdgrp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp40"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/activity_myordertype_orderallrdbtn"
+            style="@style/myorderlin_toprdbtn"
+            android:text="全部"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/activity_myordertype_ordernocomplectrdbtn"
+            style="@style/myorderlin_toprdbtn"
+            android:text="未完成"
+
+            />
+        <RadioButton
+            android:id="@+id/activity_myordertype_ordercomplectrdbtn"
+            style="@style/myorderlin_toprdbtn"
+            android:text="已完成"
+
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/activity_myordertype_orderLin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp1"
+        android:paddingRight="@dimen/mydp20"
+        >
+        <View
+            style="@style/myorderview"
+            />
+        <View
+            style="@style/myorderview"
+            android:background="@color/white"
+            />
+        <View
+            style="@style/myorderview"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_myordertype_viewpager"
+        style="@style/MatchAuto"
+        android:layout_height="417dp" />
+</LinearLayout>

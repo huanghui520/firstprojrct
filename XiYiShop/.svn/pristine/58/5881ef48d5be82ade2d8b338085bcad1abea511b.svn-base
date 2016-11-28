@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="all_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/mydp0.5</item>
+        <item name="android:background">@color/all_line</item>
+    </style>
+
+    <!--订单-->
+    <style name="myorderlin_toprdbtn">
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">@dimen/mydp0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/mysp16</item>
+        <item name="android:textColor">@color/orderstates_checkcolor</item>
+    </style>
+
+    <style name="myorderview">
+        <item name="android:layout_height">@dimen/mydp1</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">@dimen/mydp0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/zixun_color</item>
+        <item name="android:layout_marginLeft">@dimen/mydp20</item>
+    </style>
+
+    <style name="store_detailslin" parent="MatchWrap.Horizontal">
+        <item name="android:paddingLeft">@dimen/mydp15</item>
+        <item name="android:paddingTop">@dimen/mydp15</item>
+        <item name="android:paddingBottom">@dimen/mydp15</item>
+        <item name="android:paddingRight">@dimen/mydp15</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="vouvhers_editTextStylebai">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/mydp50</item>
+        <item name="android:background">@drawable/vouchers_bgcolor</item>
+        <item name="android:drawablePadding">@dimen/mydp5</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:paddingBottom">@dimen/mydp5</item>
+        <item name="android:paddingTop">@dimen/mydp5</item>
+        <item name="android:paddingLeft">@dimen/mydp10</item>
+        <item name="android:paddingRight">@dimen/mydp10</item>
+        <item name="android:textSize">@dimen/mysp15</item>
+        <item name="android:layout_marginTop">@dimen/mydp70</item>
+        <item name="android:layout_marginRight">@dimen/mydp25</item>
+        <item name="android:layout_marginLeft">@dimen/mydp25</item>
+    </style>
+    <style name="input_editTextStylebai">
+        <item name="android:layout_width">@dimen/mydp120</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/vouchers_bgcolor</item>
+        <item name="android:drawablePadding">@dimen/mydp5</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textSize">@dimen/mysp14</item>
+    </style>
+    <style name="inputcard_editTextStylebai" parent="AutoMatch">
+        <item name="android:background">@drawable/vouchers_bgcolor</item>
+        <item name="android:drawablePadding">@dimen/mydp5</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textSize">@dimen/mysp14</item>
+    </style>
+    <!--activity 跳转的样式-->
+    <style name="Anim_fade" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/fade</item>
+    </style>
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!--xiangji-->
+    <style name="MatchWrapTv" parent="MatchWrap">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_orange</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="AutoWrapTv" parent="AutoWrap">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_orange</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_bank_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    tools:context="com.fajuary.xiyishop_android.module.activity.AddBankCardActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp12"
+            android:layout_height="@dimen/mydp22"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/mydp11"
+            android:src="@mipmap/left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="添加银行卡"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_gaimi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#FFFFFF"
+        android:layout_marginTop="@dimen/mydp9"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="账号"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:text="622848001089846465"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5"
+        android:background="#A0A0A0"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="开户行"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:text="中国建设银行"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5"
+        android:background="#A0A0A0"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="持卡人姓名"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:text="德玛西亚"
+            android:textColor="#353434"
+            android:textSize="@dimen/mydp15" />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginLeft="@dimen/mydp9"
+        android:layout_marginRight="@dimen/mydp11"
+        android:layout_marginTop="@dimen/mydp20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp46"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mydp17"
+        android:gravity="center"
+        android:background="@drawable/bg_tijiaoshenqing"
+        />
+</LinearLayout>

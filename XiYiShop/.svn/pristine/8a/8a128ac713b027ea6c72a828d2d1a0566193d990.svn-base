@@ -1,0 +1,53 @@
+package com.fajuary.xiyishop_android.module.bean;
+
+
+/**
+ * created by huanghui at 2016/10/12
+ */
+
+public class DingDanBean {
+    private String taocan;//套餐
+    private String type;//套餐类型
+    private String money;//金额
+    private String state;//状态
+
+
+
+    public DingDanBean(String taocan, String type, String money,String state) {
+        super();
+        this.taocan = taocan;
+        this.type = type;
+        this.money = money;
+        this.state = state;
+    }
+    public void setTaocan(String taocan) {
+        this.taocan = taocan;
+    }
+    public  String getTaocan(){
+        return taocan;
+    }
+    public String getType() {
+        return type;
+    }
+    public void setType(String type) {
+        this.type = type;
+    }
+    public String getMoney() {
+        return money;
+    }
+    public void setMoney(String money) {
+        this.money = money;
+    }
+    public void setState(String state){
+        this.state = state;
+    }
+    public String getState(){
+        return  state;
+    }
+    @Override
+    public String toString() {
+        return "text [taocan=" + taocan + ", type=" + type + ", money=" + money+",state="+state
+                + "]";
+    }
+
+}

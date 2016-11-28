@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/MatchMatch.Vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <include layout="@layout/fragment_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp50"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/mydp15"
+        android:paddingRight="@dimen/mysp12"
+        >
+
+        <TextView
+            style="@style/WrapWrap"
+            android:text="请输入商品名称"
+            android:textColor="@color/zixun_color"
+            android:textSize="@dimen/mysp16"
+            />
+        <com.fajuary.xiyishop_android.widget.InputEditText
+            android:id="@+id/activity_initiatepayment_storeNameTxt"
+            style="@style/inputcard_editTextStylebai"
+            android:layout_marginLeft="@dimen/mydp20"
+            android:paddingLeft="@dimen/mydp4"
+            android:layout_marginBottom="@dimen/mydp5"
+            android:layout_marginTop="@dimen/mydp5"
+            android:gravity="start|center_vertical"
+            android:hint="请输入商品名称"
+            android:inputType="numberSigned"
+            android:maxLength="10"
+            android:paddingRight="@dimen/mydp4"
+            />
+    </LinearLayout>
+    <View
+        style="@style/all_line"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp50"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/mydp15"
+        android:paddingRight="@dimen/mysp12"
+        >
+
+        <TextView
+            style="@style/WrapWrap"
+            android:text="输入发起支付金额"
+            android:textColor="@color/zixun_color"
+            android:textSize="@dimen/mysp16"
+            />
+        <com.fajuary.xiyishop_android.widget.InputEditText
+            android:id="@+id/activity_initiatepayment_moneyNumTxt"
+            style="@style/inputcard_editTextStylebai"
+            android:layout_marginLeft="@dimen/mydp70"
+            android:paddingLeft="@dimen/mydp4"
+            android:layout_marginBottom="@dimen/mydp5"
+            android:layout_marginTop="@dimen/mydp5"
+            android:gravity="start|center_vertical"
+            android:hint="请输入价格"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:paddingRight="@dimen/mydp4"
+            />
+        <TextView
+            style="@style/WrapWrap"
+            android:text="元"
+            />
+    </LinearLayout>
+    <View
+        style="@style/all_line"
+       />
+    <Button
+        android:id="@+id/activity_initiatepayment_paySubmitBtn"
+        android:layout_marginTop="@dimen/mydp40"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:layout_marginLeft="@dimen/mydp20"
+        android:layout_marginRight="@dimen/mydp20"
+        android:background="@drawable/vouchers_bgcolor"
+        android:text="确定"
+        />
+</LinearLayout>

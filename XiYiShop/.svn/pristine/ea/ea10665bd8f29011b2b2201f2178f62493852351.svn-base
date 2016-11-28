@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verify.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_verify.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_orderstates_itemlayout.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\listview_orderstates_itemlayout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dingdan_list_item.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\dingdan_list_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dingdan_list_itemtwo.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\dingdan_list_itemtwo.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recyclerview_item.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\recyclerview_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ti_xian_record.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_ti_xian_record.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tixianrecord_list_item.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\tixianrecord_list_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_to_order_manager_activty.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_to_order_manager_activty.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_details_activtiy.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_details_activtiy.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_order.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\listview_order.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_pay.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_commodity_see_avtivity.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_commodity_see_avtivity.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ordermanager_main.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\ordermanager_main.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\fragment_my.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ti_xian.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_ti_xian.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bank_card.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_bank_card.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shang_pin_xiangqing.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_shang_pin_xiangqing.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_log_in.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_log_in.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_two_pay.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_two_pay.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_my_head.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\fragment_my_head.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\text.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edition.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_edition.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modification_activty.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_modification_activty.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_bank_card.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_add_bank_card.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\XiYiShop\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_up.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_set_up.xml"
+    },
+    {
+        "merged": "E:\\XiYiShop\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\XiYiShop\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

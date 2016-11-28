@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycleview_orderstatesitem_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mydp20"
+            android:layout_marginLeft="@dimen/mydp11"
+            android:layout_marginRight="@dimen/mydp30"
+            android:layout_marginTop="@dimen/mydp20"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#151515"
+            android:textSize="@dimen/mysp12" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_time"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/mydp20"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:text="于2016.08.08 16:00 "-->
+        <!--android:textColor="#151515"-->
+        <!--android:textSize="@dimen/mysp12" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_taocan"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/mydp10"-->
+        <!--android:layout_marginTop="@dimen/mydp20"-->
+        <!--android:ellipsize="end"-->
+        <!--android:maxLines="1"-->
+        <!--android:text="SPA套餐"-->
+        <!--android:textColor="#151515"-->
+        <!--android:textSize="@dimen/mysp12" />-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/tv_cg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/mydp11"
+                android:layout_marginTop="39dp"
+                android:text="服务中"
+                android:textColor="#12B7F5"
+                android:textSize="@dimen/mysp14"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_yifw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/mydp10"
+                android:layout_marginTop="39dp"
+                android:text="已完成"
+                android:textColor="#8A8B8B"
+                android:textSize="@dimen/mysp14"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/tv_tuikuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/mydp10"
+                android:layout_marginTop="39dp"
+                android:textColor="#DD0505"
+                android:textSize="@dimen/mysp14"
+                 />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5"
+        android:background="#EEEEEE" />
+</LinearLayout>

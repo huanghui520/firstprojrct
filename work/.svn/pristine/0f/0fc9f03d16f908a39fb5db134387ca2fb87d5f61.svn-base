@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchWrap.Horizontal"
+        android:id="@+id/recycleview_orderstatesitem_layout"
+    >
+    <LinearLayout
+        android:paddingTop="@dimen/mydp10"
+        android:paddingRight="@dimen/mydp15"
+       style="@style/MatchWrap.Horizontal">
+        <TextView
+            style="@style/WrapWrap"
+            android:text="王先生"
+            />
+
+        <TextView
+            style="@style/AutoWrap"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="于2016.08.08 16:00 购买SPA套餐"
+            />
+        <TextView
+            style="@style/WrapWrap"
+            android:text="下单成功"
+            android:textColor="@color/orderlst_txtcolor"
+            />
+    </LinearLayout>
+
+</LinearLayout>

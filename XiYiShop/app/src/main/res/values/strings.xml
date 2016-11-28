@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心驿商户</string>
+
+    <string-array name="trade_type">
+        <item>消费</item>
+        <!--<item>查询余额</item>-->
+        <!--<item>消费撤销</item>-->
+        <!--<item>电子现金消费</item>-->
+        <!--<item>电子现金查余</item>-->
+    </string-array>
+    
+    <string-array name="channel_list">
+        <item>银联</item>
+        <item>支付宝支付</item>
+        <item>微信支付</item>
+    </string-array>
+    
+    <string name="btn_1">初始化交易</string>
+    <string name="btn_2">处理交易</string>
+    <string name="btn_3">释放交易</string>
+    <string name="btn_4">获取渠道信息</string>
+    
+    <string name="et1_hint">请输入交易金额</string>
+    <string name="et2_hint">请输入流水号</string>
+    <string name="et3_hint">请系统参考号</string>
+    <string name="et4_hint">请输入消费撤销金额</string>
+    <string name="et5_hint">请选择交易撤销日期</string>
+    
+    <string name="et1_not_null">交易金额不可为空.</string>
+    <string name="et1_not_zero">交易金额需大于0.</string>
+    <string name="et2_not_null">流水号不可为空.</string>
+    <string name="et3_not_null">系统参考号不可为空.</string>
+    <string name="et4_not_null">交易撤销金额不可为空.</string>
+    <string name="et4_not_zero">交易撤销金额需大于0.</string>
+</resources>

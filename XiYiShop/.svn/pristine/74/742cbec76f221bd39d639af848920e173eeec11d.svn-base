@@ -1,0 +1,214 @@
+package com.fajuary.xiyishop_android.module.fragment;/**
+ * 作者：huanghui on 2016/10/12 11:10
+ */
+
+import android.content.Intent;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.cjj.MaterialRefreshLayout;
+import com.cjj.MaterialRefreshListener;
+import com.fajuary.xiyishop_android.R;
+import com.fajuary.xiyishop_android.module.activity.CommoditySeeAvtivity;
+import com.fajuary.xiyishop_android.module.activity.OrderManagerActivity;
+import com.fajuary.xiyishop_android.module.activity.PayActivity;
+import com.fajuary.xiyishop_android.module.activity.SetUpActivity;
+import com.fajuary.xiyishop_android.module.activity.TiXianActivity;
+import com.fajuary.xiyishop_android.module.activity.VerifyActivity;
+import com.fajuary.xiyishop_android.module.bean.OrderStatusBean;
+
+import org.xutils.view.annotation.ViewInject;
+import org.xutils.x;
+
+import java.util.ArrayList;
+
+/**
+ * created by huanghui at 2016/10/12
+ * 首页
+ */
+
+public class MyFragment extends BaseFragment implements View.OnClickListener {
+
+    @ViewInject(R.id.list_myorder)//listview
+    private ListView list_myorder;
+    private LinearLayout mFragment_head;
+    private TextView mFragment_myorder_balanceNumTxr;
+    private ImageView mRl_my_orderimg;//订单管理
+    private ImageView mLl_paymentLin;//提现
+    private ImageView mLl_withdraw;//验证订单
+    private ImageView mLl_seestoreLin;//发起支付
+    private ImageView mLl_verifyorderLin;//商品查看
+    private ImageView mLl_setLin;//设置
+
+    /**
+     * 订单状态数据
+     */
+    private ArrayList<OrderStatusBean> data;
+
+    private View view;
+    private MaterialRefreshLayout refresh;//下拉刷新
+
+
+    @Override
+    public View initView() {
+        view = View.inflate(context, R.layout.fragment_my, null);
+        //下拉刷新的控件
+        refresh = (MaterialRefreshLayout) view.findViewById(R.id.refresh);
+        x.view().inject(this, view);//xutls注解
+        return view;
+    }
+
+
+    /**
+     * 获取数据
+     */
+    @Override
+    public void initData() {
+        data = new ArrayList<OrderStatusBean>();
+        data.add(new OrderStatusBean("王先生", "于2016.08.08 16:00 购买SPA套餐", "下单成功"));
+        data.add(new OrderStatusBean("好先生", "于2016.08.08 16:00 购买SPA套餐", "下单成功"));
+        data.add(new OrderStatusBean("李先生", "于2016.08.08 16:00 购买SPA套餐", "下单成功"));
+        data.add(new OrderStatusBean("李先生", "于2016.08.08 16:00 购买SPA套餐", "下单成功"));
+        data.add(new OrderStatusBean("王先生", "于2016.08.08 16:00 购买SPA套餐", "下单成功"));
+        data.add(new OrderStatusBean("王先生", "于2016.08.08 16:00 购买SPA套餐", "下单成功"));
+        //头部 布局
+        View headview = View.inflate(context, R.layout.fragment_my_head, null);
+        //绑定id
+        mFragment_head = (LinearLayout)headview.findViewById(R.id.fragment_head);
+        mFragment_myorder_balanceNumTxr = (TextView)headview.findViewById(R.id.fragment_myorder_balanceNumTxr);
+        mRl_my_orderimg = (ImageView)headview.findViewById(R.id.rl_my_orderimg);
+        mLl_paymentLin = (ImageView) headview.findViewById(R.id.ll_paymentLin);
+        mLl_withdraw = (ImageView) headview.findViewById(R.id.ll_withdraw);
+        mLl_seestoreLin = (ImageView) headview.findViewById(R.id.ll_seestoreLin);
+        mLl_verifyorderLin = (ImageView) headview.findViewById(R.id.ll_verifyorderLin);
+        mLl_setLin = (ImageView) headview.findViewById(R.id.ll_setLin);
+        //设置点击事件
+        mRl_my_orderimg.setOnClickListener(this);
+        mLl_paymentLin.setOnClickListener(this);
+        mLl_withdraw.setOnClickListener(this);
+        mLl_seestoreLin.setOnClickListener(this);
+        mLl_verifyorderLin.setOnClickListener(this);
+        mLl_setLin.setOnClickListener(this);
+        //添加头部
+        list_myorder.addHeaderView(headview);
+        // 设置lietview 自带分隔线的为null
+        list_myorder.setDivider(null);
+        //适配器 显示listview所显示的数据
+        OrderStatusAdapter adapter = new OrderStatusAdapter();
+        list_myorder.setAdapter(adapter);
+        //下拉刷新的监听
+        refresh.setMaterialRefreshListener(new MyMaterialRefreshListener());
+    }
+
+
+        //处理点击事件
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.rl_my_orderimg://订单管理
+                Intent intent = new Intent(context,OrderManagerActivity.class);
+                startActivity(intent);
+                Toast.makeText(context,"跳转到订单管理页面",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.ll_withdraw://提现
+                Intent intent1 = new Intent(context, TiXianActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.ll_verifyorderLin://验证订单
+                Intent intent2 = new Intent(context, VerifyActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.ll_paymentLin://发起支付
+                Intent intent3 = new Intent(context, PayActivity.class);
+                startActivity(intent3);
+                break;
+            case  R.id.ll_seestoreLin://商品查看
+                Intent intent5 = new Intent(context, CommoditySeeAvtivity.class);
+                startActivity(intent5);
+                break;
+            case  R.id.ll_setLin://设置
+                Intent intent4 = new Intent(context, SetUpActivity.class);
+                startActivity(intent4);
+                break;
+        }
+    }
+
+    //适配器Adapter
+    private class OrderStatusAdapter extends BaseAdapter {
+        @Override
+        public int getCount() {
+            return data.size();//数量
+        }
+
+        @Override
+        public Object getItem(int i) {
+            return data.get(i);//位置的数据
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return i;
+        }
+
+        @Override
+        public View getView(int i, View convertView, ViewGroup viewGroup) {
+            ViewHolder viewholder;
+            if (convertView == null) {
+                viewholder = new ViewHolder();
+                convertView = View.inflate(context, R.layout.listview_orderstates_itemlayout, null);//加载布局
+                viewholder.myTv_name = (TextView) convertView.findViewById(R.id.tv_name);//绑定id
+                viewholder.myTv_context = (TextView) convertView.findViewById(R.id.tv_context);
+                viewholder.myTv_state = (TextView) convertView.findViewById(R.id.tv_state);
+                convertView.setTag(viewholder);//设置tag
+            } else {
+                viewholder = (ViewHolder) convertView.getTag();
+            }
+            OrderStatusBean orderStatusBean = data.get(i);//获取数据
+            viewholder.myTv_name.setText(orderStatusBean.getName());//设置数据
+            viewholder.myTv_context.setText(orderStatusBean.getContent());
+            viewholder.myTv_state.setText(orderStatusBean.getState());
+            return convertView;
+        }
+    }
+
+    static class ViewHolder {
+        TextView myTv_name;
+        TextView myTv_context;
+        TextView myTv_state;
+
+    }
+
+    //刷新
+    private class MyMaterialRefreshListener extends MaterialRefreshListener {
+        @Override
+        public void onfinish() {
+            super.onfinish();
+        }
+
+        @Override
+        public void onRefreshLoadMore(MaterialRefreshLayout materialRefreshLayout) {//上拉加载
+            super.onRefreshLoadMore(materialRefreshLayout);
+
+            refresh.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    refresh.finishRefreshLoadMore();
+                    Toast.makeText(context, "没有数据了", Toast.LENGTH_SHORT).show();
+                }
+            }, 200);
+        }
+
+        @Override
+        public void onRefresh(MaterialRefreshLayout materialRefreshLayout) {    //下拉刷新
+            //消失
+            refresh.finishRefresh();
+            Toast.makeText(context, "完成", Toast.LENGTH_SHORT).show();
+        }
+    }
+}

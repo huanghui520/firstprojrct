@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   style="@style/MatchMatch.Vertical"
+    android:background="@mipmap/bgimg_icon"
+    >
+    <include layout="@layout/fragment_layout"/>
+    <LinearLayout
+        android:background="@color/bgcolor"
+       style="@style/MatchMatch.Vertical">
+        <LinearLayout
+            android:id="@+id/activity_withdrawdeposit_personaccountLin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mydp50"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/mydp15"
+            android:paddingRight="@dimen/mydp15"
+            >
+            <TextView
+                style="@style/WrapWrap"
+                android:text="账户余额"
+                android:textColor="@color/zixun_color"
+                android:textSize="@dimen/mysp16"
+                />
+            <TextView
+               style="@style/AutoWrap" />
+            <TextView
+                android:id="@+id/activity_withdrawdeposit_personaccountTxt"
+
+                style="@style/WrapWrap"
+                android:text="¥ 300"
+                android:textColor="@color/red"
+                android:textSize="@dimen/mysp16"
+                />
+        </LinearLayout>
+        <View
+            style="@style/all_line"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mydp50"
+            android:background="@color/white"
+
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/mydp15"
+            android:paddingRight="@dimen/mysp12"
+            >
+            <TextView
+                style="@style/WrapWrap"
+                android:text="输入本次提现金额"
+                android:textColor="@color/zixun_color"
+                android:textSize="@dimen/mysp16"
+                />
+            <TextView
+               style="@style/AutoWrap" />
+            <com.fajuary.xiyishop_android.widget.InputEditText
+                android:id="@+id/activity_withdrawdeposit_moneyNumTxt"
+                style="@style/input_editTextStylebai"
+                android:layout_marginTop="@dimen/mydp5"
+                android:layout_marginBottom="@dimen/mydp5"
+                android:gravity="center|center_vertical"
+                android:maxLength="10"
+                android:hint="请输入提现金额"
+                android:paddingRight="@dimen/mydp8"
+                android:inputType="numberSigned"
+                />
+        </LinearLayout>
+        <View
+            style="@style/all_line"
+            />
+        <LinearLayout
+            android:id="@+id/activity_withdrawdeposit_withPersonLin"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/mydp10"
+            android:layout_height="@dimen/mydp50"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/mydp15"
+            android:paddingRight="@dimen/mysp8"
+            android:background="@color/white"
+
+            >
+            <TextView
+                style="@style/WrapWrap"
+                android:text="提现账户"
+                android:textColor="@color/zixun_color"
+                android:textSize="@dimen/mysp16"
+                />
+            <TextView
+               style="@style/AutoWrap" />
+            <TextView
+                android:id="@+id/activity_withdrawdeposit_withPersonTxt"
+
+                style="@style/WrapWrap"
+                android:text="622848 001083618135"
+                android:textColor="@color/red"
+                android:textSize="@dimen/mysp16"
+                />
+            <ImageView
+                android:layout_width="@dimen/mydp24"
+                android:layout_height="@dimen/mydp24"
+                android:src="@mipmap/right"
+                />
+        </LinearLayout>
+        <View
+            style="@style/all_line"
+            />
+
+        <Button
+            android:id="@+id/activity_withdrawdeposit_withSubmitBtn"
+
+            android:layout_marginTop="@dimen/mydp40"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mydp45"
+            android:layout_marginLeft="@dimen/mydp20"
+            android:layout_marginRight="@dimen/mydp20"
+            android:background="@drawable/vouchers_bgcolor"
+            android:text="提交申请"
+            />
+    </LinearLayout>
+</LinearLayout>

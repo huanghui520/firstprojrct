@@ -1,0 +1,42 @@
+package com.fajuary.xiyishop_android.module.bean;/**
+ * 作者：huanghui on 2016/10/17 23:11
+ */
+
+/**
+ * created by huanghui at 2016/10/17
+ * 银行卡 是否选中类
+ */
+
+public class BankCard extends BankCardBean {
+   private String number;
+    private String yinhang;
+
+    public BankCard(String number, String yinhang) {
+        this.number = number;
+        this.yinhang = yinhang;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public String getYinhang() {
+        return yinhang;
+    }
+
+    public void setYinhang(String yinhang) {
+        this.yinhang = yinhang;
+    }
+
+    @Override
+    public String toString() {
+        return "BankCard{" +
+                "number='" + number + '\'' +
+                ", yinhang='" + yinhang + '\'' +
+                '}';
+    }
+}

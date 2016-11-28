@@ -1,0 +1,64 @@
+package com.fajuary.xiyishop_android.module.activity;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.fajuary.xiyishop_android.R;
+/**
+ *
+ *@author 黄辉
+ *@time 2016/10/13 9:05
+ * 发起支付页面
+ *
+*/
+public class PayActivity extends Activity implements View.OnClickListener {
+    private TextView tv_tijiao;
+    private LinearLayout iv_back;
+    private EditText et_title,et_money;
+
+    private String str;
+    private String str1;
+    private String neirong=null;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pay);
+
+        tv_tijiao = (TextView) findViewById(R.id.tv_tijiao);
+        iv_back = (LinearLayout) findViewById(R.id.iv_back);
+        et_title = (EditText) findViewById(R.id.et_title);
+        et_money = (EditText) findViewById(R.id.et_money);
+
+        initData();
+
+    }
+
+    private void initData() {
+
+        tv_tijiao.setOnClickListener(this);
+        iv_back.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case  R.id.tv_tijiao://发起二维码支付申请
+                str = et_title.getText().toString().trim()+"";
+                str1 = et_money.getText().toString().trim()+"";
+                Intent intent = new Intent(this, TwoPayActivity.class);
+                intent.putExtra("ti",str);
+                intent.putExtra("to",str1);
+                startActivity(intent);
+                break;
+            case  R.id.iv_back:
+                finish();
+                break;
+        }
+    }
+}

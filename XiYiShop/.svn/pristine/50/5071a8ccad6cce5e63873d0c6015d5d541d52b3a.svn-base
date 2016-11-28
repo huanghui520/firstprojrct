@@ -1,0 +1,33 @@
+package com.fajuary.xiyishop_android.module.activity;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.fajuary.xiyishop_android.R;
+
+/**
+ *
+ *@author 黄辉
+ *@time 2016/10/13 17:25
+ *
+ * 商品详情页面
+ *
+*/
+public class ShangPinXiangqingActivity extends Activity {
+    private ImageView iv_back;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_shang_pin_xiangqing);
+       iv_back = (ImageView) findViewById(R.id.iv_back);
+        iv_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+    }
+}

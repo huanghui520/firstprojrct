@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fajuary.xiyishop_android">
+
+    <!-- //调用相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- //震动（用不到震动可以去掉） -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- //闪光灯（如不用闪光灯可以去掉） -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- <uses-sdk tools:overrideLibrary="cn.bingoogolapple.photopicker,cn.bingoogolapple.androidcommon.adapter" /> -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyAppliction"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".module.activity.MainActivity" />
+        <activity android:name=".module.activity.OrderManagerActivity" />
+        <activity android:name=".module.activity.DetailsActivtiy" />
+        <activity android:name=".module.activity.TiXianActivity" />
+        <activity android:name=".module.activity.VerifyActivity" />
+        <activity android:name=".module.activity.PayActivity" />
+        <activity android:name=".module.activity.TwoPayActivity" />
+        <activity android:name=".module.activity.SetUpActivity" />
+        <activity android:name=".module.activity.EditionActivity" />
+        <activity android:name=".module.activity.ModificationActivty" />
+        <activity android:name=".module.activity.TiXianRecordActivity" />
+        <activity android:name=".module.activity.BankCardActivity" />
+        <activity android:name=".module.activity.CommoditySeeAvtivity" />
+        <activity android:name=".module.activity.ShangPinXiangqingActivity" />
+        <activity android:name=".module.activity.AddBankCardActivity" />
+        <activity android:name=".module.activity.LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".module.activity.ChangePasswordActivity" />
+        <activity android:name=".module.activity.ToOrderManagerActivty" />
+        <activity android:name=".module.activity.ScanActivity" />
+        <activity android:name=".module.activity.VerifyResultActivity"></activity>
+<!--友盟 appkey-->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5806d56d67e58e89a7004392">
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="fe1746833cd3f6a7c53442288268c640">
+        </meta-data>
+<!--推广渠道-->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID" >
+        </meta-data>
+
+    </application>
+
+</manifest>

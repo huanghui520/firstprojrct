@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.bugtags.library.plugin'
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "com.fajuary.xiyishop_android"
+        minSdkVersion 17
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            // 设置支持的 SO 库构架
+            abiFilters 'armeabi'// 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+//Bugtags 插件配置
+bugtags {
+    //自动上传符号表功能配置，如果需要根据 build varint 配置，请参考插件详细使用说明
+//    appKey "d54e77165747f59ca58ffc26a82fffac"  //这里是你的 appKey
+    appKey "63f036c74ed9c1462f23ffd4683637ee"  //这里是你的 appKey
+    appSecret "c12b5a645648dcba016672ada95e2767"    //这里是你的 appSecret，管理员在设置页可以查看
+    mappingUploadEnabled true
+    //网络跟踪功能配置(企业版)
+//    trackingNetworkEnabled true
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.google.zxing:core:3.2.1'
+    testCompile 'junit:junit:4.12'
+    compile project(':xutils_library')
+    compile 'com.android.support:design:24.0.0'
+    compile files('libs/gson-2.2.4.jar')
+    compile 'cn.bingoogolapple:bga-qrcodecore:1.1.3@aar'
+    compile 'cn.bingoogolapple:bga-zxing:1.1.3@aar'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'pub.devrel:easypermissions:0.1.7'
+    compile 'cn.bingoogolapple:bga-photopicker:1.1.0@aar'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'cn.bingoogolapple:bga-adapter:1.1.0@aar'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    /** 友盟 */
+    compile project(':PushSDK')
+    compile 'com.alibaba:fastjson:1.2.12'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile project(':Meterial_library')
+    compile files('libs/glide-3.7.0.jar')
+    compile files('libs/eventbus.jar')
+    compile 'com.zhy:okhttputils:2.6.1'
+    //
+    compile 'com.bugtags.library:bugtags-lib:latest.integration'
+    compile files('libs/Plugin_SDK_160527142746_207.jar')
+}

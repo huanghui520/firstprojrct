@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">XiYiShop_Android</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="zixun">咨询</string>
+    <string name="immediate_order">立即下单</string>
+    <string name="share">分享</string>
+    <string name="collect">收藏</string>
+
+    <string name="digits_code">1234567890abcdefigklmnopqrstuvwxyzABCDEFIGKLMNOPQRSTUVWXYZ,./;[]{}*^%$#@</string>
+
+</resources>

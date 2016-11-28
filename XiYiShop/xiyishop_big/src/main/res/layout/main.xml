@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mydp45"
+                android:background="#12B7F5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="收 款"
+                    android:textColor="#FEFFFF"
+                    android:textSize="@dimen/mydp17" />
+            </RelativeLayout>
+            <Spinner
+                android:layout_marginTop="@dimen/mydp20"
+                android:id="@+id/spr1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/spr2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/ly1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:textSize="@dimen/mysp16"
+                    android:textColor="#666666"
+                    android:gravity="center"
+                    android:id="@+id/et1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et1_hint"
+                    android:inputType="number"
+                    android:text="0" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ly2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et2_hint" />
+                <EditText
+                    android:id="@+id/et3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et3_hint" />
+                <EditText
+                    android:id="@+id/et4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et4_hint"
+                    android:inputType="number"
+                    android:text="0" />
+                <EditText
+                    android:id="@+id/et5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:hint="@string/et5_hint" />
+            </LinearLayout>
+
+            <Button
+                android:layout_marginTop="@dimen/mydp25"
+                android:id="@+id/btn1"
+                android:background="#12B7F5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:text="@string/btn_1" />
+            <Button
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/btn2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/btn_2" />
+            <Button
+                android:visibility="gone"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="@dimen/mydp5"
+                android:id="@+id/btn3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_3" />
+            <Button
+                android:visibility="gone"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="@dimen/mydp5"
+                android:id="@+id/btn4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_4" />
+            <TextView
+                android:layout_marginTop="@dimen/mydp20"
+                android:layout_marginLeft="@dimen/mydp20"
+                android:id="@+id/tv"
+                android:text="操作步骤："
+                android:textColor="#666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#999999"
+                android:layout_marginTop="@dimen/mydp20"
+                android:layout_marginLeft="@dimen/mydp20"
+                android:text="1.初始化交易"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#999999"
+                android:layout_marginTop="@dimen/mydp10"
+                android:layout_marginLeft="@dimen/mydp20"
+                android:text="2.选择支付方式"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#999999"
+                android:layout_marginTop="@dimen/mydp10"
+                android:layout_marginLeft="@dimen/mydp20"
+                android:text="3.提交"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

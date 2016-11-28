@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wei_kuan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    tools:context="com.fajuary.xiyishop_android.module.activity.WeiKuanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/mydp12"
+                android:layout_height="@dimen/mydp22"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp11"
+                android:clickable="true"
+                android:src="@mipmap/left" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="收取尾款"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:layout_marginTop="@dimen/mydp10"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/tv_money_weikuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:text="输入尾款金额"
+            android:textColor="#353434"
+            android:textSize="@dimen/mysp15" />
+
+        <EditText
+            android:id="@+id/et_money_weikuan"
+            android:layout_width="@dimen/mydp201"
+            android:layout_height="@dimen/mydp36"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginLeft="@dimen/mydp100"
+            android:layout_marginRight="@dimen/mydp11"
+            android:background="@drawable/bg_edittext"
+            android:hint="请输入金额"
+            android:paddingLeft="@dimen/mydp12"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/mysp14" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mydp10"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_weikuan_bufen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mydp25"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:layout_marginTop="@dimen/mydp25"
+            android:layout_weight="1"
+            android:text="部分尾款"
+            android:textColor="#353434"
+            android:textSize="15sp" />
+        <CheckBox
+            android:id="@+id/cb_section_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:button="@drawable/checkbox_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mydp1"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_weikuan_quanbu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mydp25"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:layout_marginTop="@dimen/mydp25"
+            android:layout_weight="1"
+            android:text="全部尾款"
+            android:textColor="#353434"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/cb_section_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:button="@drawable/checkbox_selector" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_weikuan_queding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp46"
+        android:layout_marginLeft="@dimen/mydp9"
+        android:layout_marginRight="@dimen/mydp11"
+        android:layout_marginTop="@dimen/mydp15"
+        android:background="@drawable/bg_tijiaoshenqing"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="收款"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mydp17" />
+
+
+</LinearLayout>

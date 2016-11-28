@@ -1,0 +1,107 @@
+package com.fajuary.xiyishop_android.module.viewpager;/**
+ * 作者：huanghui on 2016/10/12 09:38
+ */
+
+import android.content.Context;
+import android.content.Intent;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.fajuary.xiyishop_android.R;
+import com.fajuary.xiyishop_android.module.activity.DetailsActivtiy;
+import com.fajuary.xiyishop_android.module.bean.DingDanBean;
+import com.fajuary.xiyishop_android.utils.LogUtil;
+
+import java.util.ArrayList;
+
+/**
+ * created by huanghui at 2016/10/12
+ */
+
+public class CompletePager extends BasePager {
+    private ListView lv_list;
+    private ArrayList<DingDanBean> data;
+
+    public CompletePager(Context context) {
+        super(context);
+        LogUtil.e("完成");
+    }
+
+    @Override
+    public View initView() {
+        View view = View.inflate(context, R.layout.listview_order, null);
+        lv_list = (ListView) view.findViewById(R.id.lv_list);
+        return view;
+    }
+
+    @Override
+    public void initData() {
+        data = new ArrayList<DingDanBean>();
+        data.add(new DingDanBean("SPA经典套餐", "套餐分类：套餐一", "金额：200","订单完成"));
+        data.add(new DingDanBean("SPA经典套餐", "套餐分类：套餐一", "金额：200","订单完成"));
+        data.add(new DingDanBean("SPA经典套餐", "套餐分类：套餐一", "金额：200","订单完成"));
+        data.add(new DingDanBean("SPA经典套餐", "套餐分类：套餐一", "金额：200","订单完成"));
+        data.add(new DingDanBean("SPA经典套餐", "套餐分类：套餐一", "金额：200","订单完成"));
+        data.add(new DingDanBean("SPA经典套餐", "套餐分类：套餐一", "金额：200","订单完成"));
+//        lv_list.setDividerHeight(0);//去掉item的分割线
+        lv_list.setAdapter(new DingDanAdapter());
+    }
+    private class DingDanAdapter extends BaseAdapter {
+        @Override
+        public int getCount() {
+            return data.size();//获取数量
+        }
+
+        @Override
+        public Object getItem(int i) {
+            return data.get(i);
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return i;
+        }
+
+        @Override
+        public View getView(int i, View convertView, ViewGroup viewGroup) {
+            ViewHolder viewHolder;
+            if(convertView==null) {
+                convertView = View.inflate(context,R.layout.dingdan_list_itemtwo,null);//加载item布局
+                viewHolder = new ViewHolder();
+                viewHolder.Rl_xiangqing =  (RelativeLayout)convertView.findViewById(R.id.Rl_xiangqing);
+                viewHolder.iv_icon = (ImageView) convertView.findViewById(R.id.iv_icon);
+                viewHolder.tv_taocan = (TextView) convertView.findViewById(R.id.tv_taocan);
+                viewHolder.tv_type = (TextView) convertView.findViewById(R.id.tv_type);
+                viewHolder.tv_money = (TextView) convertView.findViewById(R.id.tv_money);
+                convertView.setTag(viewHolder);
+            }else {
+                viewHolder = (ViewHolder) convertView.getTag();
+            }
+            DingDanBean dingDanBean = data.get(i);//获取对象
+            viewHolder.tv_taocan.setText(dingDanBean.getTaocan());
+            viewHolder.tv_type.setText(dingDanBean.getType());
+            viewHolder.tv_money.setText(dingDanBean.getMoney());
+            viewHolder.Rl_xiangqing.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(context, DetailsActivtiy.class);
+                    context.startActivity(intent);
+                }
+            });
+
+            return convertView;
+        }
+    }
+    static class ViewHolder{
+        RelativeLayout Rl_xiangqing;
+        ImageView iv_icon;
+        TextView tv_taocan;
+        TextView tv_type;
+        TextView tv_money;
+    }
+}

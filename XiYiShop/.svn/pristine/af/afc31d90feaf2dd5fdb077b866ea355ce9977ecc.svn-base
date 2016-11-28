@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="@dimen/mydp12"
+                android:layout_height="@dimen/mydp22"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp11"
+                android:clickable="true"
+                android:src="@mipmap/left"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="订单管理"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_talber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RadioGroup
+            android:id="@+id/rg_btn"
+            android:layout_marginTop="@dimen/mydp18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/wwc_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="未完成订单"
+                android:textColor="@drawable/ry_btn_selector"
+                android:textSize="@dimen/mysp16" />
+
+            <RadioButton
+                android:id="@+id/wc_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="完成订单"
+                android:textColor="@drawable/ry_btn_selector"
+                android:textSize="@dimen/mysp16" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/mydp3"
+            android:id="@+id/ll_movepager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_btn"
+            android:orientation="vertical">
+
+            <View
+                android:layout_marginLeft="@dimen/mydp38"
+                android:layout_width="@dimen/mydp101"
+                android:layout_height="@dimen/mydp2"
+                android:background="@color/head_line" />
+        </LinearLayout>
+        <View
+            android:layout_marginTop="@dimen/mydp12"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mydp1"
+            android:background="#A0A0A0" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_pager_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_talber"></android.support.v4.view.ViewPager>
+</LinearLayout>

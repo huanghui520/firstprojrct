@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchMatch.Vertical"
+    >
+    <include layout="@layout/fragment_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp50"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/mydp15"
+        >
+        <TextView
+            style="@style/WrapWrap"
+            android:text="账号"
+            android:textColor="@color/zixun_color"
+            android:textSize="@dimen/mysp16"
+            />
+        <com.fajuary.xiyishop_android.widget.InputEditText
+            android:id="@+id/activity_bindbankcard_cardNumTxt"
+            style="@style/inputcard_editTextStylebai"
+            android:layout_marginTop="@dimen/mydp5"
+            android:layout_marginBottom="@dimen/mydp5"
+            android:gravity="end|center_vertical"
+            android:maxLength="16"
+            android:hint="请输入账号"
+            android:paddingRight="@dimen/mydp15"
+            android:inputType="numberSigned"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp50"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/mydp15"
+        >
+        <TextView
+            style="@style/WrapWrap"
+            android:text="开户行"
+            android:textColor="@color/zixun_color"
+            android:textSize="@dimen/mysp16"
+            />
+
+        <com.fajuary.xiyishop_android.widget.InputEditText
+            android:id="@+id/activity_bindbankcard_cardAdrTxt"
+
+            style="@style/inputcard_editTextStylebai"
+            android:layout_marginTop="@dimen/mydp5"
+            android:layout_marginBottom="@dimen/mydp5"
+            android:gravity="end|center_vertical"
+            android:maxLength="15"
+            android:hint="请输入开户行"
+            android:paddingRight="@dimen/mydp15"
+            android:inputType="textAutoComplete"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp50"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/mydp15"
+        >
+        <TextView
+            style="@style/WrapWrap"
+            android:text="持卡人姓名"
+            android:textColor="@color/zixun_color"
+            android:textSize="@dimen/mysp16"
+            />
+
+        <com.fajuary.xiyishop_android.widget.InputEditText
+            android:id="@+id/activity_bindbankcard_cardPerTxt"
+
+            style="@style/inputcard_editTextStylebai"
+            android:layout_marginTop="@dimen/mydp5"
+            android:layout_marginBottom="@dimen/mydp5"
+            android:gravity="end|center_vertical"
+            android:maxLength="10"
+            android:hint="持卡人姓名"
+            android:paddingRight="@dimen/mydp15"
+            android:inputType="textPersonName"
+
+            />
+    </LinearLayout>
+</LinearLayout>

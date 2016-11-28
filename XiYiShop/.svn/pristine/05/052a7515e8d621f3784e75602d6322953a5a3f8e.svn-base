@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <LinearLayout
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/mydp8"
+            android:layout_marginTop="@dimen/mydp10"
+            android:layout_width="@dimen/mydp176"
+            android:layout_height="@dimen/mydp186"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/recycleview_goodsview_storeImg"
+                android:layout_width="@dimen/mydp176"
+                android:layout_height="@dimen/mydp131"
+                android:scaleType="fitXY"
+                android:src="@mipmap/default_goodsimg"
+                />
+            <TextView
+                android:id="@+id/recycleview_goodsview_storeName"
+                android:layout_marginTop="@dimen/mydp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2D2D2D"
+                android:text="商品名称"
+                android:textSize="@dimen/mysp16"
+                />
+            <TextView
+                android:id="@+id/recycleview_goodsview_storePrice"
+
+                android:layout_marginTop="@dimen/mydp8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥6000"
+                android:textSize="@dimen/mysp14"
+                android:textColor="#DC0A0A"
+                />
+        </LinearLayout>
+
+
+</LinearLayout>

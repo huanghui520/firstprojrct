@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/recycleview_orderrecord_layout"
+                style="@style/MatchWrap"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@drawable/orderrecord_item"
+                android:paddingBottom="@dimen/mydp10"
+                android:paddingLeft="@dimen/mydp10"
+                android:paddingTop="@dimen/mydp10"
+    >
+    <ImageView
+        android:id="@+id/recycleview_orderrecord_orderImg"
+        android:layout_width="@dimen/mydp80"
+        android:layout_height="@dimen/mydp70"
+        android:src="@mipmap/defaultavatar"
+        />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        style="@style/WrapWrap.Vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/mydp4"
+        android:layout_toRightOf="@+id/recycleview_orderrecord_orderImg">
+
+        <TextView
+            android:id="@+id/recycleview_orderrecord_orderName"
+
+            style="@style/WrapWrap"
+            android:text="MotoGP奥地利站排位赛"
+            android:textColor="@color/zixun_color"
+            android:textSize="@dimen/mysp16"
+            />
+
+        <TextView
+            android:id="@+id/recycleview_orderrecord_orderPckg"
+
+            style="@style/WrapWrap"
+            android:layout_marginTop="@dimen/mydp10"
+            android:text="套餐分类：套餐一"
+            />
+
+        <TextView
+            android:id="@+id/recycleview_orderrecord_orderCrtTm"
+
+            style="@style/WrapWrap"
+            android:layout_marginTop="@dimen/mydp5"
+            android:text="下单时间：2016-06-06"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/recycleview_orderrecord_orderPrice"
+        style="@style/WrapWrap"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/mydp15"
+        android:text="¥8080.00"
+        android:textColor="@color/red"
+        android:textSize="@dimen/mysp16"
+        />
+    <TextView
+        android:id="@+id/recycleview_orderrecord_orderStates"
+        style="@style/WrapWrap"
+        android:layout_alignBottom="@+id/recycleview_orderrecord_orderImg"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/mydp15"
+        android:text="已付款全额"
+        android:textColor="@color/pay_end"
+        />
+</RelativeLayout>

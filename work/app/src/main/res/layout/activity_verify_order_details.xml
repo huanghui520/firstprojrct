@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchMatch.Vertical"
+    android:background="@mipmap/bgimg_icon"
+    >
+    <include
+        layout="@layout/fragment_layout"
+        />
+    <com.fajuary.xiyishop_android.widget.MyUiScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgcolor"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            style="@style/MatchMatch.Vertical">
+            <LinearLayout
+                style="@style/MatchWrap.Vertical">
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/activity_exchangedetails_seeStoreLin"
+                android:layout_marginTop="@dimen/mydp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/mydp16"
+                android:paddingBottom="@dimen/mydp16"
+                android:paddingLeft="@dimen/mydp15"
+                android:paddingRight="@dimen/mydp15"
+                android:background="#356491"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="验证此单"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/mysp18"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/activity_exchangedetails_seeServiceLin"
+                android:layout_marginTop="@dimen/mydp8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/mydp16"
+                android:paddingBottom="@dimen/mydp16"
+                android:paddingLeft="@dimen/mydp15"
+                android:paddingRight="@dimen/mydp15"
+                android:background="@color/red"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="查看领取服务"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/mysp18"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.fajuary.xiyishop_android.widget.MyUiScrollView>
+
+</LinearLayout>

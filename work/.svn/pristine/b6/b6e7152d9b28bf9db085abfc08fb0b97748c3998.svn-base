@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\work\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\defaultavatar.jpg",
+        "source": "E:\\work\\app\\src\\main\\res\\mipmap-hdpi\\defaultavatar.jpg"
+    },
+    {
+        "merged": "E:\\work\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\edit_delete_pressed_icon.png",
+        "source": "E:\\work\\app\\build\\intermediates\\exploded-aar\\myapplibrary\\res\\mipmap-hdpi-v4\\edit_delete_pressed_icon.png"
+    },
+    {
+        "merged": "E:\\work\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\edit_delete_icon.png",
+        "source": "E:\\work\\app\\build\\intermediates\\exploded-aar\\myapplibrary\\res\\mipmap-hdpi-v4\\edit_delete_icon.png"
+    }
+]

@@ -1,0 +1,47 @@
+package com.fajuary.xiyishop_android.module.bean;
+
+
+/**
+ * created by huanghui at 2016/10/11
+ * 订单状态
+ */
+
+public class OrderStatusBean {
+
+    private String name;//姓名
+    private String content;//购买的的套餐
+    private String state;//状态
+
+
+
+    public OrderStatusBean(String name, String content, String state) {
+        super();
+        this.name = name;
+        this.content = content;
+        this.state = state;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getContent() {
+        return content;
+    }
+    public void setContent(String content) {
+        this.content = content;
+    }
+    public String getState() {
+        return state;
+    }
+    public void setState(String state) {
+        this.state = state;
+    }
+    @Override
+    public String toString() {
+        return "DataiPagerBean [name=" + name + ", content=" + content
+                + ", state=" + state + "]";
+    }
+
+}

@@ -1,0 +1,111 @@
+package com.fajuary.xiyishop_android.module.bean;/**
+ * 作者：huanghui on 2016/10/19 15:21
+ */
+
+/**
+ * created by huanghui at 2016/10/19
+ */
+
+public class LogInBean {
+
+
+    /**
+     * code : 1
+     * msg : 查询成功！
+     * datas : {"id":"ac4052ccec5e20dbe500d059b9bf2652","ip":"192.168.0.35.","phone":"","time":1476875282,"token":"AruGGaGYcWX9KgUTYz8GRrPpgmlkgD_jZMzwk5sXn-mN","uid":0}
+     */
+
+    private String code;
+    private String msg;
+    /**
+     * id : ac4052ccec5e20dbe500d059b9bf2652
+     * ip : 192.168.0.35.
+     * phone :
+     * time : 1476875282
+     * token : AruGGaGYcWX9KgUTYz8GRrPpgmlkgD_jZMzwk5sXn-mN
+     * uid : 0
+     */
+
+    private DatasBean datas;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public DatasBean getDatas() {
+        return datas;
+    }
+
+    public void setDatas(DatasBean datas) {
+        this.datas = datas;
+    }
+
+    public static class DatasBean {
+        private String id;
+        private String ip;
+        private String phone;
+        private int time;
+        private String token;
+        private int uid;
+
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+
+        public String getIp() {
+            return ip;
+        }
+
+        public void setIp(String ip) {
+            this.ip = ip;
+        }
+
+        public String getPhone() {
+            return phone;
+        }
+
+        public void setPhone(String phone) {
+            this.phone = phone;
+        }
+
+        public int getTime() {
+            return time;
+        }
+
+        public void setTime(int time) {
+            this.time = time;
+        }
+
+        public String getToken() {
+            return token;
+        }
+
+        public void setToken(String token) {
+            this.token = token;
+        }
+
+        public int getUid() {
+            return uid;
+        }
+
+        public void setUid(int uid) {
+            this.uid = uid;
+        }
+    }
+}

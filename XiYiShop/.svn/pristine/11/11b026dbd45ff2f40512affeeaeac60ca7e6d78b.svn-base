@@ -1,0 +1,40 @@
+package com.fajuary.xiyishop_android.module.bean;/**
+ * 作者：huanghui on 2016/10/15 17:31
+ */
+
+/**
+ * created by huanghui at 2016/10/15
+ */
+
+public class ShangPinBean {
+    private String money;//提现金额
+    private String time;//提现时间
+
+    public ShangPinBean(String money, String time) {
+        this.money = money;
+        this.time = time;
+    }
+
+    public String getMoney() {
+        return money;
+    }
+
+    public void setMoney(String money) {
+        this.money = money;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+
+
+    @Override
+    public String toString() {return "text [money=" + money + ", time=" + time +"]";
+    }
+
+}

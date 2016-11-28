@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ti_xian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fajuary.xiyishop_android.module.activity.TiXianActivity">
+    <!--android:background="#A0A0A0"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="@dimen/mydp12"
+                android:layout_height="@dimen/mydp22"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp11"
+                android:clickable="true"
+                android:src="@mipmap/left"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="提现"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_tixianjilu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="@dimen/mydp10"
+            android:background="@drawable/textview_tixianjilu_bg"
+            android:gravity="center"
+            android:text="提现记录"
+            android:textColor="#FEFFFF"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp151"
+        android:layout_margin="@dimen/mydp10"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mydp36"
+            android:text="60086.00"
+            android:textColor="#12B7F5"
+            android:textSize="@dimen/mydp46" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/mydp15"
+            android:layout_marginTop="@dimen/mydp105"
+            android:textColor="#434444"
+            android:text="账户余额（元）" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#ffffff">
+
+        <EditText
+            android:textCursorDrawable="@null"
+            android:numeric="integer"
+            android:paddingLeft="@dimen/mydp10"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/mydp201"
+            android:layout_height="@dimen/mydp36"
+            android:hint="输入提现金额"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginLeft="@dimen/mydp100"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_select"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:layout_marginTop="@dimen/mydp10"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="提现账户"
+            android:textSize="@dimen/mydp15"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:textColor="#353434"
+            />
+        <TextView
+            android:id="@+id/tv_account"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="622848001089846465"
+            android:layout_marginRight="@dimen/mydp31"
+            android:textSize="@dimen/mydp15"
+            android:textColor="#353434"
+            />
+        <ImageView
+            android:layout_width="@dimen/mydp10"
+            android:layout_height="@dimen/mydp18"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/right"
+            android:layout_marginRight="@dimen/mydp9"
+            />
+
+
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_marginLeft="@dimen/mydp10"
+        android:layout_marginRight="@dimen/mydp10"
+        android:layout_marginTop="@dimen/mydp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp46"
+        android:text="提交申请"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mydp17"
+        android:gravity="center"
+        android:background="@drawable/bg_tijiaoshenqing"
+        />
+
+</LinearLayout>

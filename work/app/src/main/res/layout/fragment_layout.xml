@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mydp50"
+    android:background="@color/head_line"
+    android:orientation="horizontal"
+    android:id="@+id/fragment_hedlin"
+    >
+
+    <LinearLayout
+        android:id="@+id/fragment_head_leftlayout"
+        style="@style/WrapMatch.Horizontal"
+        android:paddingLeft="@dimen/mydp15"
+        android:paddingRight="@dimen/mydp15"
+        >
+        <ImageView
+            android:id="@+id/fragment_head_leftimg"
+            android:layout_width="@dimen/mydp24"
+            android:layout_height="@dimen/mydp24"
+            android:layout_gravity="center"
+            android:src="@mipmap/blackleft"
+
+            />
+    </LinearLayout>
+    <TextView
+        style="@style/AutoWrap" />
+    <TextView
+        android:id="@+id/fragment_head_centtxt"
+        android:layout_gravity="center_vertical"
+        android:text="@string/app_name"
+        style="@style/WrapWrap"
+        android:textColor="@color/white"
+        />
+    <TextView
+        style="@style/AutoWrap" />
+    <LinearLayout
+        android:id="@+id/fragment_head_rightlayout"
+        style="@style/WrapMatch.Horizontal"
+        android:paddingLeft="@dimen/mydp15"
+        android:paddingRight="@dimen/mydp15"
+        >
+
+        <ImageView
+            android:id="@+id/fragment_head_rightimg"
+            android:layout_width="@dimen/mydp24"
+            android:layout_height="@dimen/mydp24"
+            android:layout_gravity="center"
+            android:src="@mipmap/msg"
+            />
+    </LinearLayout>
+
+</LinearLayout>

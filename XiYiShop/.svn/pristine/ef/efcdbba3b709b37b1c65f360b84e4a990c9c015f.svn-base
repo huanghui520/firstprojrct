@@ -1,0 +1,21 @@
+package com.fajuary.xiyishop_android.module.activity;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+import com.fajuary.xiyishop_android.R;
+/**
+ *
+ *@author 黄辉
+ *@time 2016/10/12 23:31
+ * 验证订单页面
+ *
+*/
+public class VerifyActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_verify);
+    }
+}

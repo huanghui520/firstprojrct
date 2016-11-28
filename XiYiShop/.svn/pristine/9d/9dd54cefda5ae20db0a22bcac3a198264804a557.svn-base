@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp12"
+            android:layout_height="@dimen/mydp22"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/mydp11"
+            android:src="@mipmap/left"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="订单管理"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17"
+            />
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="#12B7F5"
+        app:tabSelectedTextColor="#12B7F5"
+        app:tabTextColor="#2C2D2D"/>
+
+        <!--style="@style/MyCustomTabLayout"-->
+    <!--可滑动的布局内容-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

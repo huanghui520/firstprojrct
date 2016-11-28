@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fajuary.xiyishop_big_android.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="心驿收款账户"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="@dimen/mydp15"
+            android:layout_marginLeft="@dimen/mydp15"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="@dimen/mydp15"
+            android:layout_height="wrap_content"
+            android:text="点击收款，收款前需要初始化话，才能进行下一步操作。"
+            android:textSize="@dimen/mydp17"
+            />
+        <TextView
+            android:id="@+id/tv_pay"
+            android:textSize="@dimen/mysp15"
+            android:gravity="center"
+            android:text="扫 码"
+            android:textColor="#FFFFFF"
+            android:background="#12B7F5"
+            android:layout_marginBottom="@dimen/mydp100"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mydp40" />
+        <TextView
+            android:id="@+id/tv_exit"
+            android:textSize="@dimen/mysp15"
+            android:gravity="center"
+            android:text="退出登录"
+            android:textColor="#FFFFFF"
+            android:background="#12B7F5"
+            android:layout_marginBottom="@dimen/mydp40"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mydp40" />
+    </RelativeLayout>
+</LinearLayout>

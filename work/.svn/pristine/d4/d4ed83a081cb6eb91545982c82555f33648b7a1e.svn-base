@@ -1,0 +1,12 @@
+<RelativeLayout style="@style/MatchMatch"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/bgcolor"
+                android:paddingTop="@dimen/mydp10"
+
+    >
+
+    <include
+        layout="@layout/recycleview_layout"
+        />
+
+</RelativeLayout>

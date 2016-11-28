@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   style="@style/MatchMatch.Vertical"
+    android:background="@mipmap/bgimg_icon"
+    >
+    <include
+        layout="@layout/fragment_layout"
+        />
+    <com.fajuary.xiyishop_android.widget.MyUiScrollView
+        android:layout_below="@+id/fragment_hedlin"
+       style="@style/MatchMatch"
+        android:paddingBottom="@dimen/mydp45"
+        >
+        <LinearLayout
+          style="@style/MatchMatch.Vertical">
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/mydp50"
+                android:gravity="center"
+                android:background="@color/orange"
+                android:layout_marginTop="@dimen/mydp10"
+                android:layout_marginBottom="@dimen/mydp10"
+                android:paddingTop="@dimen/mydp12"
+                android:paddingBottom="@dimen/mydp12"
+                >
+                <TextView
+                    android:id="@+id/activity_orderdetail_orderStateTxt"
+                    style="@style/WrapWrap"
+                    android:text="已付预付款"
+                    android:textSize="@dimen/mysp16"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/MatchWrap.Horizontal"
+                android:background="@color/white"
+                android:paddingLeft="@dimen/mydp15"
+                android:paddingTop="@dimen/mydp14"
+                android:paddingBottom="@dimen/mydp14"
+                android:id="@+id/activity_orderdetail_orderStateLin"
+
+                >
+                <ImageView
+                    android:layout_width="@dimen/mydp24"
+                    android:layout_height="@dimen/mydp24"
+                    android:src="@mipmap/paystate_icon"
+                    android:layout_gravity="center_vertical"
+                    />
+                <TextView
+                    android:id="@+id/activity_orderdetail_orderStateTxt2"
+
+                    style="@style/WrapWrap"
+                    android:text="已付预付款"
+                    android:layout_marginLeft="@dimen/mydp15"
+                    android:textSize="@dimen/mysp16"
+                    android:textColor="@color/zixun_color"
+                    android:layout_gravity="center_vertical"
+                    />
+                <ImageView
+                    android:layout_marginLeft="@dimen/mydp15"
+                    android:layout_width="@dimen/mydp20"
+                    android:layout_height="@dimen/mydp24"
+                    android:src="@mipmap/paystate_righticon"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/MatchWrap.Vertical"
+                android:layout_marginTop="@dimen/mydp10"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/mydp8"
+                >
+                <TextView
+                    style="@style/WrapWrap"
+                    android:text="订单详情"
+                    android:layout_marginTop="@dimen/mydp15"
+                    android:layout_marginLeft="@dimen/mydp15"
+                    android:textSize="@dimen/mysp16"
+                    android:textColor="@color/zixun_color"
+                    android:layout_gravity="center_vertical"
+                    />
+                <FrameLayout
+                    android:layout_marginTop="@dimen/mydp15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/activity_orderdetail_storeImg"
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/defaultstorimg"
+                        android:minHeight="@dimen/mydp140"
+                        android:scaleType="fitXY"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_seestoreTxt"
+
+                        style="@style/WrapWrap"
+                        android:text="查看商品"
+                        android:background="@drawable/order_details_seestore"
+                        android:paddingLeft="@dimen/mydp14"
+                        android:paddingRight="@dimen/mydp14"
+                        android:paddingTop="@dimen/mydp4"
+                        android:paddingBottom="@dimen/mydp4"
+                        android:textSize="@dimen/mysp14"
+                        android:textColor="@color/white"
+                        android:layout_gravity="top|right"
+                        android:layout_marginRight="@dimen/mydp15"
+                        android:layout_marginTop="@dimen/mydp15"
+                        />
+                </FrameLayout>
+                <LinearLayout
+                    style="@style/MatchWrap.Vertical"
+                    android:paddingLeft="@dimen/mydp15"
+                    android:paddingRight="@dimen/mydp15"
+                    android:layout_marginTop="@dimen/mydp10"
+                    >
+                    <TextView
+                        android:id="@+id/activity_orderdetail_storeNameTxt"
+
+                        style="@style/WrapWrap"
+                        android:text="澳门文华东方酒店|悦享丰盛品位菜单"
+                        android:textColor="@color/zixun_color"
+                        />
+                    <View
+                        style="@style/all_line"
+                        android:layout_marginTop="@dimen/mydp8"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_packageNameTxt"
+
+                        style="@style/WrapWrap"
+                        android:layout_marginTop="@dimen/mydp10"
+                        android:text="套餐分类：套餐一"
+                        android:textColor="@color/zixun_color"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_buyNumTxt"
+
+                        style="@style/WrapWrap"
+                        android:layout_marginTop="@dimen/mydp10"
+                        android:text="数量：1次"
+                        android:textColor="@color/zixun_color"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_orderCryTxt"
+
+                        style="@style/WrapWrap"
+                        android:layout_marginTop="@dimen/mydp10"
+                        android:text="下单时间：2016-09-01 16:00"
+                        android:textColor="@color/zixun_color"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_orderNumTxt"
+
+                        style="@style/WrapWrap"
+                        android:layout_marginTop="@dimen/mydp10"
+                        android:text="订单编号：201609011600"
+                        android:textColor="@color/zixun_color"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_orderPayTxt"
+
+                        style="@style/WrapWrap"
+                        android:layout_marginTop="@dimen/mydp10"
+                        android:text="支付方式：微信"
+                        android:textColor="@color/zixun_color"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_orderdiscountTxt"
+
+                        style="@style/WrapWrap"
+                        android:layout_marginTop="@dimen/mydp10"
+                        android:text="享受优惠：无/满减"
+                        android:textColor="@color/zixun_color"
+                        />
+                    <TextView
+                        android:id="@+id/activity_orderdetail_orderMoneyTxt"
+
+                        style="@style/WrapWrap"
+                        android:layout_marginTop="@dimen/mydp10"
+                        android:text="金额：¥2000.00"
+                        android:textColor="@color/zixun_color"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.fajuary.xiyishop_android.widget.MyUiScrollView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mydp45"
+    android:background="@color/red"
+    android:gravity="center"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/activity_orderdetail_contactStorLin"
+
+    >
+    <ImageView
+        android:layout_width="@dimen/mydp24"
+        android:layout_height="@dimen/mydp24"
+        android:src="@mipmap/whitephone_icon"
+        />
+    <TextView
+       style="@style/WrapWrap"
+        android:text="联系商家"
+       android:layout_marginLeft="@dimen/mydp5"
+       android:textColor="@color/white"
+       android:textSize="@dimen/mysp16"
+        />
+</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+package com.fajuary.xiyishop_android.module.activity;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.fajuary.xiyishop_android.R;
+import com.fajuary.xiyishop_android.module.bean.BankCardBean;
+
+/**
+ * @author 黄辉
+ * @time 2016/10/14 15:19
+ * <p>
+ * 添加银行卡页面
+ */
+public class AddBankCardActivity extends Activity implements View.OnClickListener {
+    private LinearLayout iv_back;//返回
+    private EditText et_zhanghao;//账号
+    private EditText et_kaihuhan;//开户行
+    private EditText et_name;//姓名
+    private TextView tv_queding;//确定
+
+    private BankCardBean bankCardBean;//银行卡信息
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_add_bank_card);
+        initData();
+    }
+
+    /**
+     *
+     *@author 黄辉
+     *@time 2016/10/18 10:25
+     *
+     *
+    */
+    private void initData() {
+        iv_back = (LinearLayout) findViewById(R.id.iv_back);
+        et_zhanghao = (EditText) findViewById(R.id.et_zhanghao);
+        et_kaihuhan = (EditText) findViewById(R.id.et_kaihuhan);
+        tv_queding = (TextView) findViewById(R.id.tv_queding);
+        et_name = (EditText) findViewById(R.id.et_name);
+
+        iv_back.setOnClickListener(this);//点击事件
+        tv_queding.setOnClickListener(this);
+    }
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.iv_back:
+                finish();
+                break;
+            case R.id.tv_queding:
+                //获取输入框中的类容
+                String number = et_zhanghao.getText().toString().trim();
+                String kaihuhan = et_kaihuhan.getText().toString().trim();
+                String name = et_name.getText().toString().trim();
+                Toast.makeText(AddBankCardActivity.this, "num"+number+kaihuhan+name, Toast.LENGTH_SHORT).show();
+                break;
+        }
+    }
+}

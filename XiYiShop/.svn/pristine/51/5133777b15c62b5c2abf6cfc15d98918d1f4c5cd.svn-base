@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  >
+
+    <TextView
+        android:layout_marginBottom="@dimen/mydp25"
+        android:layout_marginTop="@dimen/mydp25"
+        android:id="@+id/tv_zxing_section_sequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mydp10"
+        android:text="农业银行"
+        android:textColor="#353434"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_marginBottom="@dimen/mydp25"
+        android:layout_marginTop="@dimen/mydp25"
+        android:id="@+id/tv_zxing_sectionname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mydp10"
+        android:layout_toRightOf="@+id/tv_zxing_section_sequence"
+        android:text="6666666666666666666666"
+        android:textColor="#353434"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/item_cb_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:button="@drawable/checkbox_selector"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+</RelativeLayout>

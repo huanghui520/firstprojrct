@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fajuary.xiyishop_android.module.activity.PayActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp12"
+            android:layout_height="@dimen/mydp22"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/mydp11"
+            android:clickable="true"
+            android:src="@mipmap/left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="发起支付"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/mydp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="输入商品标题"
+            android:textSize="@dimen/mysp15"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:textColor="#353434"
+            />
+
+        <EditText
+            android:paddingLeft="@dimen/mydp10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:layout_width="@dimen/mydp201"
+            android:layout_height="@dimen/mydp36"
+            android:hint="输入提现金额"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginLeft="@dimen/mydp100"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp1"
+        android:background="#A0A0A0"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp61"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="输入提现金额"
+            android:textSize="@dimen/mysp15"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:textColor="#353434"
+            />
+
+        <EditText
+            android:paddingLeft="@dimen/mydp10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:layout_width="@dimen/mydp201"
+            android:layout_height="@dimen/mydp36"
+            android:hint="2200"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginLeft="@dimen/mydp100"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_tijiao"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/mydp9"
+        android:layout_marginRight="@dimen/mydp11"
+        android:layout_marginTop="@dimen/mydp15"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp46"
+        android:text="提交申请"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mydp17"
+        android:gravity="center"
+        android:background="@drawable/bg_tijiaoshenqing"
+        />
+
+</LinearLayout>

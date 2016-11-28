@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\XiYiShop\PushSDK\unspecified\jars\libs\utdid4all-1.1.5_proguard.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a96e7800ffe107ef0fd262f8025eea5e661377ea">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\8\utdid4all-1.1.5_proguard_df5ec7fd628ac2fe525995a9b230cafe2e90d5ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_2fa4d31c358d8a65db748e44a4d7df88c72cb683\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-photopicker\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cbb1f3a8b82bac39ff5d4a615839a9d1efe7b66f">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bingoogolapple-bga-photopicker-1.1.0_b12ec6aa5d800107ba6429086c29b93953d66ada\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-zxing\1.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="73040e65336ec6ad0f44c231e000032e6e4217f0">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bingoogolapple-bga-zxing-1.1.3_9e44bac29afd2f038e656ef019b0044c8bbd32eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\libs\gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.4_8d6de02cd5215aaaa18dabaf937ffdee707c2af8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cc615bf361b5bd105dec078a847df66e8c9bf372">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_11f46ae4ef312134fd6ab15b5ea863099fb6c223\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="840a3dc7e0f038738fc354160a9ef7ce535d04ff">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\pub.devrel-easypermissions-0.1.7_2b9e14e26d95ba683713971189cd43c886b004b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="39c80eec8bc518084a28fff026d462a3891c6962">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2be5ed8c9a03661f2d0c006c2bddad862ef9dec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.12\f693a82acf6c8fb89c6ed75f9e736b601be1e262\fastjson-1.2.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f693a82acf6c8fb89c6ed75f9e736b601be1e262">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.2.12_9ad2f674d84d8beb2563ebcb51d45b586f1bf0c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_c9419a5de715a41619845cbaa992b809def722d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0_63975d5bd0ff8e5679410c021abfb9ad327ab1bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_8bf35ee2bba818564cbd6641d936c584519fade0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_06e752fc040094c80f346352c3e5a0fb24e88354\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-qrcodecore\1.1.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1402312a1d966670b02d20ee697b2e1a56203c0b">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bingoogolapple-bga-qrcodecore-1.1.3_932871603cd203277c3ad56e6b6a82f9a599936b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_fe1477c565a50b84c59afb14e95ffc293489a2ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_7db2a252630446c0d1609803c0aea0ec79b8c4e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\XiYiShop\PushSDK\unspecified\jars\libs\com.umeng.message_v3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f3ca2092452dfad3f9822df1df1c21b680eef5e5">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\8\com.umeng.message_v3.0.1_71e55dd557e8658f696a9e8c6c2cf00489ea5d61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_c96768f429ac713ec8c40c06fbad9a6dc0d8d9fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\cn.bingoogolapple\bga-adapter\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d2fc47d835e217890cbe631b0bb447786d8544aa">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bingoogolapple-bga-adapter-1.1.0_509310cafa80eb6de1051a70632f7adafa0e95ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_e535fe857edb0221d58f229e50319abcec48e71c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_84d4bd66f8cad624bcdcc86f55ed20f5517877c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="E:\XiYiShop\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_3f96f72d8bc40481fc852122e0314b3485c288eb\classes.dex" />
+    </item>
+
+</items>

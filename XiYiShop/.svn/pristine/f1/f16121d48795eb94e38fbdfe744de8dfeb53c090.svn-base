@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="121dp"
+    android:orientation="vertical"
+    android:id="@+id/Rl_xiangqing"
+    >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:src="@mipmap/default_goodsimg"
+        android:layout_width="@dimen/mydp141"
+        android:layout_height="@dimen/mydp101"
+        android:layout_margin="@dimen/mydp10"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_taocan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mydp25"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="SPA金典套餐"
+            android:textColor="#111111"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mydp9"
+            android:text="套餐分类：套餐一"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mydp20"
+            android:text="金额：2000"
+            android:textColor="#DB0808"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="268dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="54dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="订单未完成"
+            android:textColor="#12B7F5"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

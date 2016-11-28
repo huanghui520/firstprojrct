@@ -1,0 +1,19 @@
+package com.fajuary.xiyishop_android;/**
+ * 作者：huanghui on 2016/10/12 11:18
+ */
+
+import android.app.Application;
+
+import org.xutils.x;
+
+/**
+ * created by huanghui at 2016/10/12
+ */
+
+public class MyAppliction extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        x.Ext.init(this);
+    }
+}

@@ -1,0 +1,46 @@
+package com.fajuary.xiyishop_android.module.activity;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.fajuary.xiyishop_android.R;
+
+/**
+ * @author 黄辉
+ * @time 2016/10/13 11:46
+ * <p>
+ * 选择银行卡页   添加银行卡  银行卡列表
+ */
+public class BankCardActivity extends Activity implements View.OnClickListener {
+    private ImageView iv_back, iv_add;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_bank_card);
+        initData();
+    }
+
+    private void initData() {
+        iv_back = (ImageView) findViewById(R.id.iv_back);
+        iv_add = (ImageView) findViewById(R.id.iv_add);
+        iv_back.setOnClickListener(this);
+        iv_add.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.iv_back:
+                finish();
+                break;
+            case R.id.iv_add:
+                Intent intent = new Intent(this, AddBankCardActivity.class);
+                startActivity(intent);
+                break;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchWrap.Vertical"
+    android:background="@color/bgcolor"
+    >
+    <LinearLayout
+        android:id="@+id/recycleview_goodsview_layout"
+        style="@style/MatchWrap.Vertical"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/mydp10"
+        android:layout_marginLeft="@dimen/mydp10"
+       android:padding="@dimen/mydp10"
+        android:gravity="center"
+        >
+        <LinearLayout
+            style="@style/WrapWrap.Vertical">
+            <ImageView
+                android:id="@+id/recycleview_goodsview_storeImg"
+
+                android:layout_width="@dimen/mydp120"
+                android:layout_height="@dimen/mydp120"
+                android:scaleType="fitXY"
+                android:src="@mipmap/default_goodsimg"
+                />
+            <TextView
+                android:id="@+id/recycleview_goodsview_storeName"
+
+                android:layout_marginTop="@dimen/mydp8"
+                style="@style/WrapWrap"
+                android:text="商品名称"
+                />
+            <TextView
+                android:id="@+id/recycleview_goodsview_storePrice"
+
+                android:layout_marginTop="@dimen/mydp4"
+                style="@style/WrapWrap"
+                android:text="¥6000"
+                android:textColor="@color/red"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

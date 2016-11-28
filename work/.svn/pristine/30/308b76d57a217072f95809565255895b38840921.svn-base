@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+ style="@style/MatchMatch"
+   >
+    <include layout="@layout/fragment_layout"/>
+    <LinearLayout
+       style="@style/MatchWrap.Vertical"
+       android:layout_centerHorizontal="true"
+       android:layout_centerInParent="true"
+       android:layout_marginTop="@dimen/mydp50"
+       android:gravity="center"
+        >
+        <TextView
+            style="@style/WrapWrap"
+            android:textColor="@color/red"
+            android:text="发起支付金额：¥2000"
+            />
+        <LinearLayout
+            android:layout_width="@dimen/mydp220"
+            android:layout_height="@dimen/mydp220"
+            android:background="@color/white"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="@dimen/mydp180"
+                android:layout_height="@dimen/mydp180"
+                android:src="@mipmap/default_icon"
+                />
+        </LinearLayout>
+        <TextView
+            style="@style/WrapWrap"
+            android:textColor="@color/zixun_color"
+            android:text="提示：请您的客户扫描此码付款"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

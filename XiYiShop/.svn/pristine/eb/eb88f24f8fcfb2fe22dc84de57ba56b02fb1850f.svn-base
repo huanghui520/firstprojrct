@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:5:5-34:19
+MERGED from [org.xutils:xutils_library:3.0.9] E:\XiYiShop\app\build\intermediates\exploded-aar\org.xutils\xutils_library\3.0.9\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.fajuary.xiyishop_android.module.activity.MainActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:11:9-13:20
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:11:19-63
+activity#com.fajuary.xiyishop_android.module.activity.OrderManagerActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:14:9-74
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:14:19-71
+activity#com.fajuary.xiyishop_android.module.activity.DetailsActivtiy
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:15:9-69
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:15:19-66
+activity#com.fajuary.xiyishop_android.module.activity.TiXianActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:16:9-68
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:16:19-65
+activity#com.fajuary.xiyishop_android.module.activity.VerifyActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:17:9-68
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:17:19-65
+activity#com.fajuary.xiyishop_android.module.activity.PayActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:18:9-65
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:18:19-62
+activity#com.fajuary.xiyishop_android.module.activity.TwoPayActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:19:9-68
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:19:19-65
+activity#com.fajuary.xiyishop_android.module.activity.SetUpActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:20:9-67
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:20:19-64
+activity#com.fajuary.xiyishop_android.module.activity.EditionActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:21:9-69
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:21:19-66
+activity#com.fajuary.xiyishop_android.module.activity.ModificationActivty
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:22:9-73
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:22:19-70
+activity#com.fajuary.xiyishop_android.module.activity.TiXianRecordActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:23:9-74
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:23:19-71
+activity#com.fajuary.xiyishop_android.module.activity.BankCardActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:24:9-70
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:24:19-67
+activity#com.fajuary.xiyishop_android.module.activity.CommoditySeeAvtivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:25:9-74
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:25:19-71
+activity#com.fajuary.xiyishop_android.module.activity.ShangPinXiangqingActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:26:9-79
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:26:19-76
+activity#com.fajuary.xiyishop_android.module.activity.AddBankCardActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:27:9-73
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:27:19-70
+activity#com.fajuary.xiyishop_android.module.activity.LogInActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:28:9-32:36
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:28:19-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:28:66-32:25
+action#android.intent.action.MAIN
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:29:13-65
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:29:21-62
+category#android.intent.category.LAUNCHER
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:31:23-70
+activity#com.fajuary.xiyishop_android.module.activity.ChangePasswordActivity
+ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:33:9-85
+	android:name
+		ADDED from E:\XiYiShop\app\src\main\AndroidManifest.xml:33:19-73
+uses-sdk
+INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [org.xutils:xutils_library:3.0.9] E:\XiYiShop\app\build\intermediates\exploded-aar\org.xutils\xutils_library\3.0.9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [XiYiShop:MaterialRefreshLayout_library:unspecified] E:\XiYiShop\app\build\intermediates\exploded-aar\XiYiShop\MaterialRefreshLayout_library\unspecified\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] E:\XiYiShop\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XiYiShop\app\src\main\AndroidManifest.xml

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/dialog_set_radius"
+       android:paddingRight="8dp"
+       android:paddingBottom="8dp"
+       android:paddingLeft="8dp"
+       android:paddingTop="8dp">
+       <TextView
+           android:id="@+id/hint_info_tv_title"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="提示"
+           android:textSize="15sp"
+           android:gravity="center_horizontal"
+           android:layout_marginTop="18dp"
+           android:textColor="#ff000000"/>
+       <TextView
+           android:id="@+id/hint_info_tv_content"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="請輸入正確的手機號碼"
+           android:gravity="center_horizontal"
+           android:textSize="15sp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="15dp"
+           android:layout_below="@id/hint_info_tv_title"
+           android:textColor="#ff666666"/>
+       <Button
+           android:id="@+id/hint_info_btn_ok"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="好的"
+           android:textColor="#ffff4444"
+           android:textSize="15sp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="15dp"
+           android:layout_below="@id/hint_info_tv_content"
+           android:background="@mipmap/ellipse"
+           android:layout_marginBottom="15dp"/>
+
+   </RelativeLayout>
+
+
+</RelativeLayout>

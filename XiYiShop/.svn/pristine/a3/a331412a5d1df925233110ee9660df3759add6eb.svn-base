@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_two_pay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fajuary.xiyishop_android.module.activity.TwoPayActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#12B7F5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="@dimen/mydp12"
+                android:layout_height="@dimen/mydp22"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp11"
+                android:clickable="true"
+                android:src="@mipmap/left"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="发起支付"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mydp17" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp136"
+        android:layout_margin="@dimen/mydp10"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mydp26"
+            android:text="2000"
+            android:textColor="#D30D03"
+            android:textSize="@dimen/mysp46" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/mysp15"
+            android:layout_marginTop="@dimen/mydp90"
+            android:textColor="#434444"
+            android:text="发起支付金额（元）" />
+    </RelativeLayout>
+    
+    <ImageView
+        android:padding="@dimen/mydp5"
+        android:src="@mipmap/default_icon"
+        android:layout_marginTop="@dimen/mydp29"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/mydp286"
+        android:layout_height="@dimen/mydp286" />
+
+    <TextView
+        android:layout_marginTop="@dimen/mydp29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="提示：请您的客户扫此码付款"
+        android:textColor="#12B7F5"
+        android:textSize="@dimen/mysp15"
+        />
+
+
+</LinearLayout>

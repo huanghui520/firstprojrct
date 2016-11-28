@@ -1,0 +1,118 @@
+package com.fajuary.xiyishop_android.module.activity;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import com.fajuary.xiyishop_android.R;
+import com.fajuary.xiyishop_android.module.bean.TIXianJiLuBean;
+
+import java.util.ArrayList;
+
+/**
+ * @author 黄辉
+ * @time 2016/10/13 10:33
+ * <p>
+ * 提现记录页
+ */
+public class TiXianRecordActivity extends Activity implements View.OnClickListener {
+
+    private ImageView iv_tixianjilu__back;
+    private ListView lv_tixianjilu;
+
+    /**
+     * 提现记录数据
+     */
+    private ArrayList<TIXianJiLuBean> data;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ti_xian_record);
+        initData();
+    }
+
+    private void initData() {
+        data = new ArrayList<TIXianJiLuBean>();
+        data.add(new TIXianJiLuBean("2000", "2016-08-08"));
+        data.add(new TIXianJiLuBean("2000", "2016-08-08"));
+        data.add(new TIXianJiLuBean("2000", "2016-08-08"));
+        data.add(new TIXianJiLuBean("2000", "2016-08-08"));
+        data.add(new TIXianJiLuBean("2000", "2016-08-08"));
+        data.add(new TIXianJiLuBean("2000", "2016-08-08"));
+
+        iv_tixianjilu__back = (ImageView) findViewById(R.id.iv_tixianjilu__back);
+        lv_tixianjilu = (ListView) findViewById(R.id.lv_tixianjilu);
+        iv_tixianjilu__back.setOnClickListener(this);
+
+        //提现记录页 适配器
+        lv_tixianjilu.setAdapter(new TiXianRecordAdapter());
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.iv_tixianjilu__back:
+                finish();
+                break;
+        }
+    }
+
+    private class TiXianRecordAdapter extends BaseAdapter {
+        @Override
+        public int getCount() {
+            return data.size();
+        }
+
+        @Override
+        public Object getItem(int i) {
+            return data.get(i);
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int i, View convertView, ViewGroup viewGroup) {
+            ViewHolder viewholder;
+            if (convertView == null) {
+                viewholder = new ViewHolder();
+                convertView = View.inflate(TiXianRecordActivity.this, R.layout.tixianrecord_list_item, null);
+                viewholder.mTv_money = (TextView) convertView.findViewById(R.id.tv_money);
+                viewholder.mTv_time = (TextView) convertView.findViewById(R.id.tv_time);
+                convertView.setTag(viewholder);
+            } else {
+                viewholder = (ViewHolder) convertView.getTag();
+            }
+            TIXianJiLuBean tiXianJiLuBean = data.get(i);//获取数据
+            viewholder.mTv_money.setText("提现金额："+tiXianJiLuBean.getMoney());
+            viewholder.mTv_time.setText(tiXianJiLuBean.getTime());
+            return convertView;
+        }
+    }
+
+
+    static class ViewHolder {
+//        mTv_money = (TextView) findViewById(R.id.tv_money);
+//        mTv_shenhe = (TextView) findViewById(R.id.tv_shenhe);
+//        mTv_succeed = (TextView) findViewById(R.id.tv_succeed);
+//        mTv_fail = (TextView) findViewById(R.id.tv_fail);
+//        mTv_time = (TextView) findViewById(R.id.tv_time);
+//        mTv_kahao = (TextView) findViewById(R.id.tv_kahao);
+
+          TextView mTv_money;//提现记录金额
+//          TextView mTv_shenhe;
+//          TextView mTv_succeed;
+//          TextView mTv_fail;
+          TextView mTv_time;//提现记录时间
+//          TextView mTv_kahao;
+
+    }
+}
