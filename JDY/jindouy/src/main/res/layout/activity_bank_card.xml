@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_bank_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jindouy.station_android.module.activity.BankCardActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="@dimen/mydp12"
+                android:layout_height="@dimen/mydp22"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp11"
+                android:clickable="true"
+                android:src="@mipmap/left" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="银行卡列表"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mysp16" />
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="@dimen/mydp54"
+            android:layout_height="@dimen/mydp29"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/mydp10"
+            android:background="@drawable/bg_select_add"
+            android:gravity="center"
+            android:text="增 加"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mysp13" />
+    </RelativeLayout>
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:isLoadMore="true">
+    <ListView
+        android:descendantFocusability="blocksDescendants"
+        android:id="@+id/lv_list_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.cjj.MaterialRefreshLayout>
+</LinearLayout>

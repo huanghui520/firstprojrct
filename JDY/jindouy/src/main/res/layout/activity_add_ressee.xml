@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_ressee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jindouy.station_android.module.activity.AddResseeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="收 件"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mysp16" />
+    </RelativeLayout>
+    <TextView
+
+        android:textSize="@dimen/mysp29"
+        android:layout_marginTop="@dimen/mydp61"
+        android:layout_gravity="center_horizontal"
+        android:text="入库扫码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/mydp47"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/mydp301"
+        android:layout_height="@dimen/mydp41"
+        android:background="@drawable/bg_select_ss"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/mydp15"
+            android:background="@android:color/transparent"
+            android:hint="请输入运单编号查询"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp12" />
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/mydp8"
+            android:clickable="true"
+            android:src="@mipmap/ewm" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_demand"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginLeft="@dimen/mydp30"
+        android:layout_marginRight="@dimen/mydp30"
+        android:layout_marginTop="@dimen/mydp49"
+        android:background="@drawable/bg_select"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="查 询"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mysp14" />
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="@dimen/mydp12"
+                android:layout_height="@dimen/mydp22"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp11"
+                android:clickable="true" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="快件管理"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/mydp16" />
+    </RelativeLayout>
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:id="@+id/rl_talber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:id="@+id/rg_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/mydp18"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_all_pack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="所有包裹"
+                android:textColor="@drawable/ry_btn_selector"
+                android:textSize="@dimen/mysp12" />
+            <RadioButton
+                android:id="@+id/rb_local_pack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="同城包裹"
+                android:textColor="@drawable/ry_btn_selector"
+                android:textSize="@dimen/mysp12" />
+            <RadioButton
+                android:id="@+id/rb_kuacheng_pack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@android:color/transparent"
+                android:gravity="center"
+                android:text="跨城包裹"
+                android:textColor="@drawable/ry_btn_selector"
+                android:textSize="@dimen/mysp12" />
+        </RadioGroup>
+        <LinearLayout
+            android:id="@+id/ll_movepager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_btn"
+            android:layout_marginTop="@dimen/mydp3"
+            android:orientation="vertical">
+            <View
+                android:layout_width="@dimen/mydp120"
+                android:layout_height="@dimen/mydp2"
+                android:layout_marginTop="@dimen/mydp10"
+                android:background="#4090FF" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp5"
+        android:layout_marginTop="@dimen/mydp1"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_pager_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_talber"></android.support.v4.view.ViewPager>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mydp60"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_tixian_status"
+        android:layout_width="wrap_content"
+        android:text="收取快件"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mydp14"
+        android:layout_marginTop="@dimen/mydp15"
+        android:textColor="#444444"
+        android:textSize="@dimen/mysp12" />
+    <TextView
+        android:id="@+id/tv_tixian_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mydp15"
+        android:layout_marginLeft="@dimen/mydp13"
+        android:layout_marginTop="@dimen/mydp36"
+        android:textColor="#999999"
+        android:text="2016.08.10 13:00"
+        android:textSize="@dimen/mysp12" />
+    <TextView
+        android:id="@+id/tv_tixian_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1元"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="#07AA5B"
+        android:layout_marginRight="@dimen/mydp14"
+        android:textSize="@dimen/mysp12" />
+</RelativeLayout>

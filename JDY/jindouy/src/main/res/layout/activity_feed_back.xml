@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feed_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jindouy.station_android.module.activity.FeedBackActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="@dimen/mydp11"
+                android:layout_height="@dimen/mydp20"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp13"
+                android:clickable="true"
+                android:src="@mipmap/left"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="意见反馈"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/mydp16" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_feed_back_leixin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp50"
+        android:layout_marginTop="@dimen/mydp11"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp13"
+            android:text="选择反馈类型"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp13" />
+        <ImageView
+            android:layout_width="@dimen/mydp8"
+            android:layout_height="@dimen/mydp15"
+            android:layout_marginRight="@dimen/mydp10"
+            android:src="@mipmap/xy" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_marginTop="@dimen/mydp9"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp210">
+        <EditText
+            android:id="@+id/et_feed_back_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="left"
+            android:padding="@dimen/mydp13"
+            android:hint="请留下您的宝贵建议.."
+            android:textColor="#999999"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/mysp13" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_feed_back_tijiao"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginLeft="@dimen/mydp35"
+        android:layout_marginRight="@dimen/mydp25"
+        android:layout_marginTop="@dimen/mydp34"
+        android:background="@drawable/bg_select"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mysp14" />
+</LinearLayout>

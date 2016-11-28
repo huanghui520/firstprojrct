@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_ti_xian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jindouy.station_android.module.activity.MyTiXianActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/mydp11"
+                android:layout_height="@dimen/mydp20"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp13"
+                android:clickable="true"
+                android:src="@mipmap/left" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="提现"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/mydp16" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp54"
+        android:background="#FFFFFF"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="余额 : ￥"
+            android:textColor="#444444"
+            android:textSize="@dimen/mysp13" />
+        <TextView
+            android:id="@+id/tv_my_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#444444"
+            android:textSize="@dimen/mysp13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp44"
+        android:layout_marginTop="@dimen/mydp8"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp13"
+            android:layout_weight="1"
+            android:text="提现金额"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp13" />
+        <EditText
+            android:id="@+id/et_tixian_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp13"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="请输入提现金额"
+            android:textColor="#999999"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/mysp13" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_bank_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp40"
+        android:layout_marginTop="@dimen/mydp0.5"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp13"
+            android:layout_weight="1"
+            android:text="提现账户"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp13" />
+        <TextView
+            android:id="@+id/tv_bank_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp13"
+            android:layout_marginRight="@dimen/mydp10"
+            android:textColor="#999999"
+            android:textSize="@dimen/mysp13" />
+        <ImageView
+            android:layout_width="@dimen/mydp8"
+            android:layout_height="@dimen/mydp15"
+            android:layout_marginRight="@dimen/mydp13"
+            android:src="@mipmap/xy" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_tixian_queding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginLeft="@dimen/mydp30"
+        android:layout_marginRight="@dimen/mydp30"
+        android:layout_marginTop="@dimen/mydp39"
+        android:background="@drawable/bg_select"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="提现"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mysp14" />
+</LinearLayout>

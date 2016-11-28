@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/mydp11"
+                android:layout_height="@dimen/mydp20"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp13"
+                android:clickable="true"
+                android:src="@mipmap/left" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="包详情"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/mydp16" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.cjj.MaterialRefreshLayout
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:isLoadMore="true">
+
+            <ListView
+                android:id="@+id/list_myorder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.cjj.MaterialRefreshLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp47"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_ruku"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFA726"
+                android:gravity="center"
+                android:text="入 库"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/mysp16"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/tv_send"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4090FF"
+                android:gravity="center"
+                android:text="发 包"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/mysp16"
+                android:visibility="gone" />
+            <LinearLayout
+                android:id="@+id/ll_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/tv_bao_addressee"
+                    android:gravity="center"
+                    android:text="收 包"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/mysp16"
+                    android:background="#78D785"
+                    android:layout_width="@dimen/mydp0"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/tv_bao_getpiece"
+                    android:textSize="@dimen/mysp16"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:text="取 包"
+                    android:background="#FE7080"
+                    android:layout_width="@dimen/mydp0"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

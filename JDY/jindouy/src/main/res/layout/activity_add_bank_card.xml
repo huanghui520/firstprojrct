@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_bank_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jindouy.station_android.module.activity.AddBankCardActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/mydp80"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/mydp11"
+                android:layout_height="@dimen/mydp20"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/mydp13"
+                android:clickable="true"
+                android:src="@mipmap/left" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="添加银行卡"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/mydp16" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginTop="@dimen/mydp8"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp13"
+            android:layout_weight="1"
+            android:text="开户行"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp13" />
+
+        <EditText
+            android:id="@+id/et_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp13"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="请输入开户银行"
+            android:textColor="#999999"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/mysp13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginTop="@dimen/mydp8"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp13"
+            android:layout_weight="1"
+            android:text="账号"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp13" />
+
+        <EditText
+            android:id="@+id/et_card_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp13"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="请输入银行卡号"
+            android:numeric="integer"
+            android:textColor="#999999"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/mysp13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginTop="@dimen/mydp8"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp13"
+            android:layout_weight="1"
+            android:text="持卡人"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp13" />
+
+        <EditText
+            android:id="@+id/et_card_my_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp13"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="请输入持卡人姓名"
+            android:textColor="#999999"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/mysp13" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_add_card_queding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginLeft="@dimen/mydp30"
+        android:layout_marginRight="@dimen/mydp30"
+        android:layout_marginTop="@dimen/mydp44"
+        android:background="@drawable/bg_select"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mysp14" />
+</LinearLayout>

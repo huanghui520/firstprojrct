@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fajuary.jdy_android.module.activity.LogInActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp45"
+        android:background="#4090FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="登陆"
+            android:textColor="#FEFFFF"
+            android:textSize="@dimen/mysp16" />
+    </RelativeLayout>
+
+    <EditText
+        android:digits=".0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ"
+        android:id="@+id/et_phone"
+        android:textCursorDrawable="@null"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp44"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/mydp30"
+        android:layout_marginRight="@dimen/mydp30"
+        android:layout_marginTop="@dimen/mydp50"
+        android:background="@drawable/bg_edittext"
+        android:hint="请输入您的账号"
+        android:textSize="12sp"
+        android:paddingLeft="@dimen/mydp22" />
+
+    <EditText
+        android:id="@+id/et_psw"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"
+        android:digits=".0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQRSTUVWXYZ"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp44"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/mydp30"
+        android:layout_marginRight="@dimen/mydp30"
+        android:layout_marginTop="@dimen/mydp24"
+        android:background="@drawable/bg_edittext"
+        android:hint="请输入您的登陆密码"
+        android:textSize="12sp"
+        android:paddingLeft="@dimen/mydp22" />
+
+    <TextView
+        android:id="@+id/tv_langding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp41"
+        android:layout_marginLeft="@dimen/mydp30"
+        android:layout_marginRight="@dimen/mydp30"
+        android:layout_marginTop="@dimen/mydp34"
+        android:background="@drawable/bg_select"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="登陆"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/mysp14" />
+        <!--android:background="@drawable/bg_tijiaoshenqing"-->
+
+</LinearLayout>

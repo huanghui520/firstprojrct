@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fajuary.jdy_android.module.activity.MainActivity">
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_move"
+            style="@style/Appbtn"
+            android:textSize="@dimen/mysp11"
+            android:drawablePadding="@dimen/mydp5"
+            android:button="@android:color/transparent"
+            android:drawableTop="@drawable/rb_home_selector"
+            android:text="首页" />
+        <RadioButton
+            android:textSize="@dimen/mysp11"
+            android:id="@+id/rg_cinema"
+            style="@style/Appbtn"
+            android:drawablePadding="@dimen/mydp3"
+            android:drawableTop="@drawable/rg_cinema_selector"
+            android:text="快件" />
+        <RadioButton
+            android:textSize="@dimen/mysp11"
+            android:drawablePadding="@dimen/mydp4"
+            android:id="@+id/rb_find"
+            style="@style/Appbtn"
+            android:drawableTop="@drawable/rg_find_selector"
+            android:text="仓库" />
+        <RadioButton
+
+            android:drawablePadding="@dimen/mydp5"
+            android:id="@+id/rb_my"
+            style="@style/Appbtn"
+            android:drawableTop="@drawable/rb_my_selector"
+            android:text="我的"
+            android:textSize="@dimen/mysp11" />
+    </RadioGroup>
+</LinearLayout>

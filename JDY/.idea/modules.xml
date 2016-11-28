@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDY.iml" filepath="$PROJECT_DIR$/JDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Meterial_library/Meterial_library.iml" filepath="$PROJECT_DIR$/Meterial_library/Meterial_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PushSDK/PushSDK.iml" filepath="$PROJECT_DIR$/PushSDK/PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jindouy/jindouy.iml" filepath="$PROJECT_DIR$/jindouy/jindouy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xutils_library/xutils_library.iml" filepath="$PROJECT_DIR$/xutils_library/xutils_library.iml" />
+    </modules>
+  </component>
+</project>

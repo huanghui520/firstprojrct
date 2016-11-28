@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mydp61"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_name_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mydp14"
+        android:layout_marginTop="@dimen/mydp15"
+        android:text="农业银行"
+        android:textColor="#444444"
+        android:textSize="@dimen/mysp12" />
+    <TextView
+        android:id="@+id/tv_number_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mydp14"
+        android:layout_marginTop="@dimen/mydp36"
+        android:layout_marginBottom="@dimen/mydp15"
+        android:text="6666666666666666666666"
+        android:textColor="#999999"
+        android:textSize="@dimen/mysp12" />
+    <CheckBox
+        android:id="@+id/item_cb_section"
+        android:layout_width="@dimen/mydp15"
+        android:layout_height="@dimen/mydp15"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/mydp13"
+        android:button="@drawable/checkbox_selector"
+        android:focusable="false" />
+</RelativeLayout>

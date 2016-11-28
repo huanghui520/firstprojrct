@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/iv_home_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mydp6"
+            android:layout_marginLeft="@dimen/mydp11"
+            android:layout_marginTop="@dimen/mydp9"
+            android:src="@mipmap/tz" />
+
+        <TextView
+            android:id="@+id/tv_home_order_number"
+            android:textSize="@dimen/mysp10"
+            android:textColor="#999999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp49"
+            android:layout_marginTop="@dimen/mydp10"
+            android:text="订单号：0010105032015151" />
+        <TextView
+            android:id="@+id/tv_home_ststus"
+            android:textSize="@dimen/mysp11"
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp50"
+            android:layout_marginTop="@dimen/mydp28"
+            android:text="任卓已接单" />
+        <TextView
+            android:id="@+id/tv_home_time"
+            android:textSize="@dimen/mysp10"
+            android:textColor="#999999"
+            android:layout_marginTop="@dimen/mydp10"
+            android:layout_marginRight="@dimen/mydp13"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016.08.08 14:00"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5"/>
+
+</LinearLayout>

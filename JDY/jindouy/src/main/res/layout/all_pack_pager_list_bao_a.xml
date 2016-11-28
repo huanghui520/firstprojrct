@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp62"
+        android:background="#FFFFFF">
+        <ImageView
+            android:id="@+id/iv_bao_icon"
+            android:layout_width="@dimen/mydp40"
+            android:layout_height="@dimen/mydp40"
+            android:layout_marginBottom="@dimen/mydp10"
+            android:layout_marginLeft="@dimen/mydp10"
+            android:layout_marginTop="@dimen/mydp13"
+            android:src="@mipmap/qdz" />
+        <TextView
+            android:layout_marginTop="@dimen/mydp14"
+            android:layout_marginLeft="@dimen/mydp58"
+            android:id="@+id/tv_bao_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="霍营包裹001"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp13" />
+        <TextView
+            android:id="@+id/tv_bao_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp58"
+            android:layout_marginBottom="@dimen/mydp12"
+            android:layout_marginTop="@dimen/mydp39"
+            android:text="包裹号：1234567890 "
+            android:textColor="#999999"
+            android:textSize="@dimen/mysp10" />
+        <TextView
+            android:id="@+id/tv_bao_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/mydp11"
+            android:layout_marginTop="@dimen/mydp15"
+            android:text="3Kg"
+            android:textColor="#666666"
+            android:textSize="@dimen/mysp11" />
+        <TextView
+            android:id="@+id/tv_bao_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/mydp13"
+            android:layout_marginRight="@dimen/mydp10"
+            android:layout_marginTop="@dimen/mydp39"
+            android:text="2016.08.08 14:00"
+            android:textColor="#999999"
+            android:textSize="@dimen/mysp10" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/mydp0.5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp27"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp14"
+            android:src="@mipmap/hc" />
+        <TextView
+            android:textColor="#999999"
+            android:textSize="@dimen/mysp10"
+            android:id="@+id/tv_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp6"
+            android:layout_weight="1"
+            android:text="nihisdjisad" />
+        <TextView
+            android:textColor="#999999"
+            android:textSize="@dimen/mysp10"
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/mydp10"
+            android:text="nihisdjisad" />
+    </LinearLayout>
+</LinearLayout>

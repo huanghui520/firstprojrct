@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="@dimen/mydp46">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/mydp46"
+            >
+            <TextView
+                android:id="@+id/tv_bao_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mydp19"
+                android:layout_marginTop="@dimen/mydp11"
+                android:text="19:30"
+                android:textColor="#666666"
+                android:textSize="@dimen/mysp13" />
+            <TextView
+                android:id="@+id/tv_bao_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/mydp16"
+                android:layout_marginTop="@dimen/mydp26"
+                android:text="2016.08.03"
+                android:textColor="#999999"
+                android:textSize="@dimen/mysp8" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="@dimen/mydp11"
+            android:layout_gravity="center_vertical"
+            android:layout_width="@dimen/mydp6"
+            android:background="@drawable/view_selector"
+            android:layout_height="@dimen/mydp6"/>
+        <TextView
+            android:id="@+id/tv_bao_content"
+            android:textSize="@dimen/mysp11"
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mydp9"
+            android:layout_gravity="center_vertical"
+            android:text="快件到达龙岗火车站代收点"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mydp0.5" />
+</LinearLayout>

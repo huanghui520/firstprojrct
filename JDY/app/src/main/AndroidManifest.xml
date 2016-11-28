@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fajuary.jdy_android">
+
+    <!-- 存储权限   友盟sdk23以上需增加 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyAppliction"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".module.activity.MainActivity"/>
+        <!-- 友盟 appkey -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5821280af43e480cc100278b" />
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="117ddec9f92a6a8b1bca19c9617f7291" />
+        <!-- 推广渠道 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID" />
+
+        <activity android:name=".module.activity.LogInActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".module.activity.MyAccountActivity" />
+        <activity android:name=".module.activity.FajianRecordActivity" />
+        <activity android:name=".module.activity.GuanyuWeActivity" />
+        <activity android:name=".module.activity.SystemSettingActivity"></activity>
+    </application>
+
+</manifest>
